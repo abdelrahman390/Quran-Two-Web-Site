@@ -21,48 +21,48 @@ const currentPageName = window.location.pathname.split('/').pop();
 
 const width = window.innerWidth || document.documentElement.clientWidth;
 // console.log(`Current window width: ${width}px`);
-if (width < 1150){
-    function burgerIcon() {
-        let header = document.querySelector('header')
-        let burger = document.querySelector('header .links_container .burgerIcon')
-        let ul = document.querySelector('header .links_container ul')
-        let a = document.querySelector('header .links_container ul li.active a:last-child')
+// if (width < 1150){
+//     function burgerIcon() {
+//         let header = document.querySelector('header')
+//         let burger = document.querySelector('header .links_container .burgerIcon')
+//         let ul = document.querySelector('header .links_container ul')
+//         let a = document.querySelector('header .links_container ul li.active a:last-child')
 
-        burger.onclick = () => {
-            console.log('burger')
-            if(burger.classList.contains("checked")){
-                burger.classList.remove("checked")
-                ul.style.cssText = 'max-height: 0; padding: 0; transition: 0.5s; display: flex;'
-                header.style.marginBottom = '0'
-                header.style.transition = '1s'
-                a.style.display = 'none'
-                function headerTimeOut() {
-                    ul.style.display = 'none'
-                }
-                setTimeout(headerTimeOut, 500);
+//         burger.onclick = () => {
+//             console.log('burger')
+//             if(burger.classList.contains("checked")){
+//                 burger.classList.remove("checked")
+//                 ul.style.cssText = 'max-height: 0; padding: 0; transition: 0.5s; display: flex;'
+//                 header.style.marginBottom = '0'
+//                 header.style.transition = '1s'
+//                 a.style.display = 'none'
+//                 function headerTimeOut() {
+//                     ul.style.display = 'none'
+//                 }
+//                 setTimeout(headerTimeOut, 500);
     
-            } else if(!(burger.classList.contains("checked"))){
-                burger.classList.add("checked")
-                ul.style.display = 'flex'
-                header.style.marginBottom = '90px'
-                header.style.transition = '0.5s'
-                function headerTimeOut() {
-                    ul.style.cssText = 'display: flex; max-height: 150px; padding: 25px; transition: 0.5s;'
-                    // a.style.display = 'unset'
-                }
-                setTimeout(headerTimeOut, 100);
+//             } else if(!(burger.classList.contains("checked"))){
+//                 burger.classList.add("checked")
+//                 ul.style.display = 'flex'
+//                 header.style.marginBottom = '90px'
+//                 header.style.transition = '0.5s'
+//                 function headerTimeOut() {
+//                     ul.style.cssText = 'display: flex; max-height: 150px; padding: 25px; transition: 0.5s;'
+//                     // a.style.display = 'unset'
+//                 }
+//                 setTimeout(headerTimeOut, 100);
 
-                function headerTimeOutTWo() {
-                    a.style.display = 'unset'
-                }
-                setTimeout(headerTimeOutTWo, 200);
+//                 function headerTimeOutTWo() {
+//                     a.style.display = 'unset'
+//                 }
+//                 setTimeout(headerTimeOutTWo, 200);
 
     
-            }
-        }
-    }
-    burgerIcon()
-}
+//             }
+//         }
+//     }
+//     burgerIcon()
+// }
 
 
 
