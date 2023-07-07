@@ -20,48 +20,87 @@ const currentPageName = window.location.pathname.split('/').pop();
 
 
 const width = window.innerWidth || document.documentElement.clientWidth;
-// console.log(`Current window width: ${width}px`);
-// if (width < 1150){
-//     function burgerIcon() {
-//         let header = document.querySelector('header')
-//         let burger = document.querySelector('header .links_container .burgerIcon')
-//         let ul = document.querySelector('header .links_container ul')
-//         let a = document.querySelector('header .links_container ul li.active a:last-child')
+console.log(`Current window width: ${width}px`);
+let header = document.querySelector('header')
+let burger = document.querySelector('header .links_container .burgerIcon')
+let ul = document.querySelector('header .links_container ul')
+let a = document.querySelector('header .links_container ul li.active a:last-child')
 
-//         burger.onclick = () => {
-//             console.log('burger')
-//             if(burger.classList.contains("checked")){
-//                 burger.classList.remove("checked")
-//                 ul.style.cssText = 'max-height: 0; padding: 0; transition: 0.5s; display: flex;'
-//                 header.style.marginBottom = '0'
-//                 header.style.transition = '1s'
-//                 a.style.display = 'none'
-//                 function headerTimeOut() {
-//                     ul.style.display = 'none'
-//                 }
-//                 setTimeout(headerTimeOut, 500);
+
+
+
+
+if (width < 1150){
+    burger.onclick = function burgerClick()  {
+        console.log('burger')
+
+        if(burger.classList.contains("checked")){
+            burger.classList.remove("checked")
+            ul.style.cssText = 'max-height: 0; padding: 0; transition: 1s; display: flex;'
+            header.style.marginBottom = '0'
+            header.style.transition = '1s'
+            a.style.display = 'none'
+            // function headerTimeOut() {
+                ul.style.display = 'none'
+            // }
+            // setTimeout(headerTimeOut, 500);
     
-//             } else if(!(burger.classList.contains("checked"))){
-//                 burger.classList.add("checked")
-//                 ul.style.display = 'flex'
-//                 header.style.marginBottom = '90px'
-//                 header.style.transition = '0.5s'
-//                 function headerTimeOut() {
-//                     ul.style.cssText = 'display: flex; max-height: 150px; padding: 25px; transition: 0.5s;'
-//                     // a.style.display = 'unset'
-//                 }
-//                 setTimeout(headerTimeOut, 100);
+        } else if(!(burger.classList.contains("checked"))){
+            burger.classList.add("checked")
+            // ul.style.display = 'flex'
+            
+            if (width < 900){
+                header.style.marginBottom = '320px'
+            } else {
+                header.style.marginBottom = '90px'
+            }
 
-//                 function headerTimeOutTWo() {
-//                     a.style.display = 'unset'
-//                 }
-//                 setTimeout(headerTimeOutTWo, 200);
+            header.style.transition = '1s'
+
+            function headerTimeOut() {
+                ul.style.cssText = 'display: flex; max-height: 150px; padding: 25px; transition: 0.5s;'
+                a.style.display = 'unset'
+            }
+            setTimeout(headerTimeOut, 500);
+    
+            function headerTimeOutTWo() {
+                a.style.display = 'unset'
+                // ul.style.display = 'flex'
+                // ul.style.cssText = 'display: flex; max-height: 150px; padding: 25px; transition: 0.5s;'
+            }
+            setTimeout(headerTimeOutTWo, 300);
+    
+        }
 
     
-//             }
-//         }
+    // if (width < 900){
+    //     // smallScreen = () => {
+    //         // burgerClick()
+    //         if(!(burger.classList.contains("checked"))){
+    //             header.style.marginBottom = '320px !important'
+    //         }
+    //     // }
+    // }
+
+    }
+}
+
+//  else{
+//     // burgerClick()
+//     if (width < 900){
+//         // smallScreen = () => {
+//             burgerClick()
+//             // if(!(burger.classList.contains("checked"))){
+//                 header.style.marginBottom = '320px !important'
+//             // }
+//         // }
 //     }
-//     burgerIcon()
+// }
+
+// if (width < 900){
+//     function () {
+
+//     }
 // }
 
 
