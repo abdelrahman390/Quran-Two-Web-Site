@@ -291,6 +291,7 @@ header{
             margin-top: 50px;
             align-items: center;
             flex-direction: column;
+            flex-wrap: wrap;
             & .boxes-container{
                 width: 100%;
                 display: flex;
@@ -354,7 +355,9 @@ header{
                 flex-direction: column;
                 align-items: center;
                 position: relative;
-                min-width: 265px;
+                min-width: 320px;
+                max-width: 500px;
+                text-align: end;
                 & > h1{
                     @include mainTitle;
                     margin: unset;
@@ -578,7 +581,7 @@ header{
                 flex-direction: column;
                 justify-content: space-between;
                 align-items: center;
-                & span{
+                & div{
                     height: 125px;
                     width: 125px;
                     display: flex;
@@ -617,7 +620,7 @@ footer{
 /*######################################## responsive style #############################################*/
 @media screen and (max-width: 600px) {
     /* Styles for screens that are 600px wide or less */
-    header .links_container ul {
+    header ul {
         flex-direction: column;
         max-height: 285px !important;
         & li {
@@ -639,14 +642,26 @@ footer{
     }
 
 
+    .firstPage .five .max-width .packedges-cont,
+    .firstPage .five .max-width .packedges-cont-second{
+        & .left-box ,
+        & .mid-box ,
+        & .right-box {
+            max-width: 350px;
+            & .price-cont{
+                min-width: 280px;
+            }
+        }
+    }
+
+
     
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
     /* Styles for screens that are between 601px and 900px wide */
     header{
-        // margin-bottom: 320px;
-        & .links_container ul {
+        &  ul {
             flex-direction: column;
             max-height: 285px !important;
             & li {
@@ -685,10 +700,22 @@ footer{
             }
         }
     }
+
+
+    .firstPage .five .max-width .packedges-cont,
+    .firstPage .five .max-width .packedges-cont-second{
+        & .left-box ,
+        & .mid-box ,
+        & .right-box {
+            max-width: 450px;
+        }
+    }
+
+
 }
 
 @media screen and (max-width: 1150px){
-    header .links_container{
+    header {
         & ul {
             display: none; 
             border-bottom-left-radius: 10px; 
@@ -706,17 +733,18 @@ footer{
         }
     }
 
-    .one .two .container p{
+    .firstPage .two .container p{
         text-align: center;
         margin-top: 25px;    
     }
-    .one .five .packedges-cont,
-    .one .five .packedges-cont-second{
+
+    .firstPage .five .fimax-widthve .packedges-cont,
+    .firstPage .five .max-width .packedges-cont-second{
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    .one .five .packedges-cont-second .boxes-container {
+    .firstPage .five .max-width .packedges-cont-second .boxes-container {
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -727,7 +755,7 @@ footer{
     header .icons{
         width: auto;
     }
-    .one {
+    .firstPage {
         & .cards .cards-container {
             flex-wrap: wrap;
             justify-content: center;
@@ -743,21 +771,23 @@ footer{
             }
         }
     }
-    .one .five .packedges-cont,
-    .one .five .packedges-cont-second{
+    
+    .firstPage .five .max-width .packedges-cont,
+    .firstPage .five .max-width .packedges-cont-second{
         // flex-wrap: wrap;
+        justify-content: center;
         & .left-box ,
         & .mid-box ,
         & .right-box {
             width: 30%;
             margin: 20px;
+            flex: 1 1;
             & .price-cont{
-                width: 97%;
+                // width: 97%;
+                min-width: 300px;
             }
         }
     }
-
-
 
 
 }
