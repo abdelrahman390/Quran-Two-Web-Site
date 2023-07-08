@@ -515,6 +515,8 @@ header .burgerIcon span {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   /* ###################################### boxes #########################################*/
   /*######## Special for mid box ########*/
 }
@@ -621,7 +623,9 @@ header .burgerIcon span {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  min-width: 265px;
+  min-width: 320px;
+  max-width: 500px;
+  text-align: end;
 }
 .firstPage .five .packedges-cont .left-box > h1, .firstPage .five .packedges-cont .mid-box > h1, .firstPage .five .packedges-cont .right-box > h1, .firstPage .five .packedges-cont-second .left-box > h1, .firstPage .five .packedges-cont-second .mid-box > h1, .firstPage .five .packedges-cont-second .right-box > h1 {
   margin: 30px 0;
@@ -939,7 +943,7 @@ header .burgerIcon span {
       -ms-flex-align: center;
           align-items: center;
 }
-.firstPage .data .max-width .container .box span {
+.firstPage .data .max-width .container .box div {
   height: 125px;
   width: 125px;
   display: -webkit-box;
@@ -958,7 +962,7 @@ header .burgerIcon span {
           box-shadow: 0px 0px 12px -5px rgba(0, 0, 0, 0.5);
   position: relative;
 }
-.firstPage .data .max-width .container .box span img {
+.firstPage .data .max-width .container .box div img {
   position: absolute;
   width: 180%;
   left: 53%;
@@ -991,18 +995,18 @@ footer h2 {
 /*######################################## responsive style #############################################*/
 @media screen and (max-width: 600px) {
   /* Styles for screens that are 600px wide or less */
-  header .links_container ul {
+  header ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     max-height: 285px !important;
   }
-  header .links_container ul li {
+  header ul li {
     position: relative;
     margin: 5px 0;
   }
-  header .links_container ul li.active a:after {
+  header ul li.active a:after {
     content: "";
     height: 15px;
     width: 15px;
@@ -1013,21 +1017,33 @@ footer h2 {
   .one .mainPageImgs img {
     height: 43vh !important;
   }
+  .firstPage .five .max-width .packedges-cont .left-box, .firstPage .five .max-width .packedges-cont .mid-box, .firstPage .five .max-width .packedges-cont .right-box,
+  .firstPage .five .max-width .packedges-cont-second .left-box,
+  .firstPage .five .max-width .packedges-cont-second .mid-box,
+  .firstPage .five .max-width .packedges-cont-second .right-box {
+    max-width: 350px;
+  }
+  .firstPage .five .max-width .packedges-cont .left-box .price-cont, .firstPage .five .max-width .packedges-cont .mid-box .price-cont, .firstPage .five .max-width .packedges-cont .right-box .price-cont,
+  .firstPage .five .max-width .packedges-cont-second .left-box .price-cont,
+  .firstPage .five .max-width .packedges-cont-second .mid-box .price-cont,
+  .firstPage .five .max-width .packedges-cont-second .right-box .price-cont {
+    min-width: 280px;
+  }
 }
 @media screen and (min-width: 601px) and (max-width: 900px) {
   /* Styles for screens that are between 601px and 900px wide */
-  header .links_container ul {
+  header ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     max-height: 285px !important;
   }
-  header .links_container ul li {
+  header ul li {
     position: relative;
     margin: 5px 0;
   }
-  header .links_container ul li.active a:after {
+  header ul li.active a:after {
     content: "";
     height: 15px;
     width: 15px;
@@ -1050,9 +1066,15 @@ footer h2 {
     height: 150px;
     width: 150px;
   }
+  .firstPage .five .max-width .packedges-cont .left-box, .firstPage .five .max-width .packedges-cont .mid-box, .firstPage .five .max-width .packedges-cont .right-box,
+  .firstPage .five .max-width .packedges-cont-second .left-box,
+  .firstPage .five .max-width .packedges-cont-second .mid-box,
+  .firstPage .five .max-width .packedges-cont-second .right-box {
+    max-width: 450px;
+  }
 }
 @media screen and (max-width: 1150px) {
-  header .links_container ul {
+  header ul {
     display: none;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -1064,22 +1086,22 @@ footer h2 {
     padding: 0;
     max-height: 0;
   }
-  header .links_container .burgerIcon {
+  header .burgerIcon {
     display: block;
   }
-  .one .two .container p {
+  .firstPage .two .container p {
     text-align: center;
     margin-top: 25px;
   }
-  .one .five .packedges-cont,
-  .one .five .packedges-cont-second {
+  .firstPage .five .fimax-widthve .packedges-cont,
+  .firstPage .five .max-width .packedges-cont-second {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .one .five .packedges-cont-second .boxes-container {
+  .firstPage .five .max-width .packedges-cont-second .boxes-container {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-pack: center;
@@ -1091,35 +1113,44 @@ footer h2 {
   header .icons {
     width: auto;
   }
-  .one .cards .cards-container {
+  .firstPage .cards .cards-container {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .one .cards .cards-container .card {
+  .firstPage .cards .cards-container .card {
     margin: 10px;
   }
-  .one .data .container {
+  .firstPage .data .container {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     width: 100%;
   }
-  .one .data .container .box {
+  .firstPage .data .container .box {
     margin: 40px 20px;
   }
-  .one .five .packedges-cont .left-box, .one .five .packedges-cont .mid-box, .one .five .packedges-cont .right-box,
-  .one .five .packedges-cont-second .left-box,
-  .one .five .packedges-cont-second .mid-box,
-  .one .five .packedges-cont-second .right-box {
+  .firstPage .five .max-width .packedges-cont,
+  .firstPage .five .max-width .packedges-cont-second {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .firstPage .five .max-width .packedges-cont .left-box, .firstPage .five .max-width .packedges-cont .mid-box, .firstPage .five .max-width .packedges-cont .right-box,
+  .firstPage .five .max-width .packedges-cont-second .left-box,
+  .firstPage .five .max-width .packedges-cont-second .mid-box,
+  .firstPage .five .max-width .packedges-cont-second .right-box {
     width: 30%;
     margin: 20px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1;
+            flex: 1 1;
   }
-  .one .five .packedges-cont .left-box .price-cont, .one .five .packedges-cont .mid-box .price-cont, .one .five .packedges-cont .right-box .price-cont,
-  .one .five .packedges-cont-second .left-box .price-cont,
-  .one .five .packedges-cont-second .mid-box .price-cont,
-  .one .five .packedges-cont-second .right-box .price-cont {
-    width: 97%;
+  .firstPage .five .max-width .packedges-cont .left-box .price-cont, .firstPage .five .max-width .packedges-cont .mid-box .price-cont, .firstPage .five .max-width .packedges-cont .right-box .price-cont,
+  .firstPage .five .max-width .packedges-cont-second .left-box .price-cont,
+  .firstPage .five .max-width .packedges-cont-second .mid-box .price-cont,
+  .firstPage .five .max-width .packedges-cont-second .right-box .price-cont {
+    min-width: 300px;
   }
 }
