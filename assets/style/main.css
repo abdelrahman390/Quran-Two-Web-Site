@@ -6,11 +6,11 @@
           box-sizing: border-box;
 }
 
+html,
 body {
-  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
   background-color: #fcfcfc;
   font-family: "Cairo", sans-serif;
-  /* font-family: 'Ubuntu', sans-serif; */
+  direction: rtl;
 }
 
 :root {
@@ -45,9 +45,9 @@ header .max-width {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -55,6 +55,40 @@ header .max-width {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  flex-direction: row;
+}
+header ul li {
+  position: relative;
+}
+header ul li a {
+  text-decoration: none;
+  margin: 5px 10px;
+  font-size: 20px;
+  color: var(--white-color);
+  cursor: pointer;
+  font-family: system-ui;
+  position: relative;
+}
+header ul li.active a:after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  height: 12px;
+  width: 100%;
+  right: 0;
+  bottom: -30px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 header .icons {
   display: -webkit-box;
@@ -68,6 +102,8 @@ header .icons {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-direction: row;
+      flex-direction: row;
 }
 header .icons li {
   position: relative;
@@ -106,10 +142,10 @@ header .icons img {
 header .icons .cart li a span {
   margin-left: unset;
 }
-header .links_container .burgerIcon {
+header .burgerIcon {
   display: none;
 }
-header .links_container .burgerIcon span {
+header .burgerIcon span {
   display: block;
   width: 35px;
   height: 5px;
@@ -117,39 +153,6 @@ header .links_container .burgerIcon span {
   background-color: white;
   margin: 7px 0;
   border-radius: 2px;
-}
-header .links_container ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-}
-header .links_container ul li {
-  position: relative;
-}
-header .links_container ul li a {
-  text-decoration: none;
-  margin: 5px 10px;
-  font-size: 20px;
-  color: var(--white-color);
-  cursor: pointer;
-  font-family: system-ui;
-  position: relative;
-}
-header .links_container ul li.active a:after {
-  content: "";
-  position: absolute;
-  background-color: white;
-  height: 12px;
-  width: 100%;
-  right: 0;
-  bottom: -30px;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
 }
 
 /*########################################## Header End ##########################################################*/
@@ -180,6 +183,10 @@ header .links_container ul li.active a:after {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 .firstPage .one .bulults li {
   height: 15px;
@@ -282,6 +289,10 @@ header .links_container ul li.active a:after {
   margin-top: 50px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 .firstPage .two .container p {
   font-size: 22px;
@@ -414,6 +425,10 @@ header .links_container ul li.active a:after {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
   cursor: pointer;
 }
 .firstPage .four .max-width .container .box:hover {
@@ -454,10 +469,6 @@ header .links_container ul li.active a:after {
   display: flex;
   background-color: white;
   border-radius: 10px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
   -webkit-box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.5);
 }
@@ -628,18 +639,18 @@ header .links_container ul li.active a:after {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 .firstPage .five .packedges-cont .left-box .main-point .cont, .firstPage .five .packedges-cont .mid-box .main-point .cont, .firstPage .five .packedges-cont .right-box .main-point .cont, .firstPage .five .packedges-cont-second .left-box .main-point .cont, .firstPage .five .packedges-cont-second .mid-box .main-point .cont, .firstPage .five .packedges-cont-second .right-box .main-point .cont {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -664,10 +675,6 @@ header .links_container ul li.active a:after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -681,6 +688,10 @@ header .links_container ul li.active a:after {
   padding: 20px;
   -webkit-box-shadow: var(--box-shadow);
           box-shadow: var(--box-shadow);
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 .firstPage .five .packedges-cont .left-box .price-cont h1, .firstPage .five .packedges-cont .mid-box .price-cont h1, .firstPage .five .packedges-cont .right-box .price-cont h1, .firstPage .five .packedges-cont-second .left-box .price-cont h1, .firstPage .five .packedges-cont-second .mid-box .price-cont h1, .firstPage .five .packedges-cont-second .right-box .price-cont h1 {
   color: white;
@@ -710,9 +721,9 @@ header .links_container ul li.active a:after {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   margin-right: 35px;
   margin-top: 10px;
 }
@@ -724,9 +735,9 @@ header .links_container ul li.active a:after {
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin: 3px 0;
 }
 .firstPage .five .packedges-cont .left-box .nested-point .cont span, .firstPage .five .packedges-cont .mid-box .nested-point .cont span, .firstPage .five .packedges-cont .right-box .nested-point .cont span, .firstPage .five .packedges-cont-second .left-box .nested-point .cont span, .firstPage .five .packedges-cont-second .mid-box .nested-point .cont span, .firstPage .five .packedges-cont-second .right-box .nested-point .cont span {
