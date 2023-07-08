@@ -43,8 +43,8 @@ header{
 
 
 /*#################################### first Page Start ##############################################*/
-.one{
-    & .mainPageImgs {
+.firstPage{
+    & .one {
         margin-top: 30px;
         & .container{
             overflow: hidden;
@@ -77,33 +77,34 @@ header{
                 }
             }
         }
+        @keyframes slide{
+            0%{
+                transform: translateX(0);
+            }
+            25%{
+                transform: translateX(0);
+            }
+            30%{
+                transform: translateX(-100%);
+            }
+            50%{
+                transform: translateX(-100%);
+            }
+            55%{
+                transform: translateX(-200%);
+            }
+            75%{
+                transform: translateX(-200%);
+            }
+            80%{
+                transform: translateX(-300%);
+            }
+            100%{
+                transform: translateX(-300%);
+            }
+        }
     }
-    @keyframes slide{
-        0%{
-            transform: translateX(0);
-        }
-        25%{
-            transform: translateX(0);
-        }
-        30%{
-            transform: translateX(-100%);
-        }
-        50%{
-            transform: translateX(-100%);
-        }
-        55%{
-            transform: translateX(-200%);
-        }
-        75%{
-            transform: translateX(-200%);
-        }
-        80%{
-            transform: translateX(-300%);
-        }
-        100%{
-            transform: translateX(-300%);
-        }
-    }
+
     & .two{
         padding: 30px 0;
         & .title{
@@ -123,6 +124,7 @@ header{
             }
         }
     }
+
     & .three{
         padding: 30px 0;
         & .max-width{
@@ -193,6 +195,7 @@ header{
             }
         }
     }
+
     & .four{
         & .max-width{
             & .title{
@@ -234,6 +237,7 @@ header{
             }
         }
     }
+
     & .five{
         & .max-width{
             display: flex;
@@ -279,7 +283,6 @@ header{
         }
         & .packedges-cont,
         & .packedges-cont-second{
-            // flex-wrap: wrap;
             width: 100%;
             display: flex;
             justify-content: space-between;
@@ -338,7 +341,7 @@ header{
                     }
                 }
             }
-    /* ###################################### boxes #########################################*/
+            /* ###################################### boxes #########################################*/
             & .left-box, & .mid-box , & .right-box{
                 width: calc(100% / 3.1);
                 padding: 20px;
@@ -392,17 +395,6 @@ header{
                     top: 65px;
                     padding: 20px;
                     box-shadow: var(--box-shadow);
-                    // &::after{
-                    //     content: '';
-                    //     width: 55px;
-                    //     position: absolute;
-                    //     height: 150%;
-                    //     background-color: white;
-                    //     left: -15px;
-                    //     bottom: -36px;
-                    //     transform: rotateZ(-40deg);
-                    //     border-bottom-left-radius: 77px;
-                    // }
                     & h1{
                         color: white;
                         font-weight: 500;
@@ -463,7 +455,46 @@ header{
                         }
                 }
             }
-        
+                /*######## Special for mid box ########*/
+            & .mid-box{
+                    background-color: var(--primary-color);
+                    & .main-point{
+                        color: white;
+                        & .cont span{
+                            background-color: white
+                        }
+                        & .cont h4 {
+                            text-align: end;
+                        }
+                    }
+                & > h1{
+                    color: white;
+                }
+                & .nested-point h4{
+                    color: white;
+                }
+                & .nested-point span{
+                    background-color: var(--white-color) !important;
+                }
+                & .price-cont{
+                    background-color: white;
+                    // &::after{
+                    //     background-color: var(--primary-color)
+                    // }
+                    & h1{
+                        color: var(--golden-color);
+                    }
+                }
+                & button{
+                border: 3px solid var(--white-color);
+                color: white;
+                    &:hover{
+                        color: var(--primary-color);
+                        background-color: white;
+                        transition: 0.1s;
+                    }
+                }
+            }
         }
         & .packedges-cont{
             flex-direction: row-reverse !important;
@@ -471,47 +502,6 @@ header{
         }
         & .packedges-cont-second{
             display: none !important;
-        }
-    }
-    /*######## Special for mid box ########*/
-    & .five .packedges-cont .mid-box,
-    & .five .packedges-cont-second .mid-box{
-            background-color: var(--primary-color);
-            & .main-point{
-                color: white;
-                & .cont span{
-                    background-color: white
-                }
-                & .cont h4 {
-                    text-align: end;
-                }
-            }
-        & > h1{
-            color: white;
-        }
-        & .nested-point h4{
-            color: white;
-        }
-        & .nested-point span{
-            background-color: var(--white-color) !important;
-        }
-        & .price-cont{
-            background-color: white;
-            // &::after{
-            //     background-color: var(--primary-color)
-            // }
-            & h1{
-                color: var(--golden-color);
-            }
-        }
-        & button{
-        border: 3px solid var(--white-color);
-        color: white;
-            &:hover{
-                color: var(--primary-color);
-                background-color: white;
-                transition: 0.1s;
-            }
         }
     }
 
@@ -566,7 +556,7 @@ header{
         }
     }
 
-    & .data{
+    & .data .max-width{
         display: flex;
         justify-content: center;
         margin-top: 80px;
