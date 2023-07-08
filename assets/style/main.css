@@ -123,6 +123,10 @@ header .icons li a {
   cursor: pointer;
   font-family: system-ui;
   position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 header .icons li.active a:after {
   content: "";
@@ -134,13 +138,6 @@ header .icons li.active a:after {
   bottom: -24px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-}
-header .icons img {
-  height: 35px;
-  color: white;
-}
-header .icons .cart li a span {
-  margin-left: unset;
 }
 header .burgerIcon {
   display: none;
