@@ -630,6 +630,52 @@ header .burgerIcon span {
   margin: unset;
   margin-bottom: 130px;
 }
+.firstPage .five .packedges-cont .left-box .price-cont, .firstPage .five .packedges-cont .mid-box .price-cont, .firstPage .five .packedges-cont .right-box .price-cont, .firstPage .five .packedges-cont-second .left-box .price-cont, .firstPage .five .packedges-cont-second .mid-box .price-cont, .firstPage .five .packedges-cont-second .right-box .price-cont {
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 28% 100%);
+          clip-path: polygon(0 0, 100% 0%, 100% 100%, 28% 100%);
+  width: 85%;
+  margin: 25px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: var(--primary-color);
+  position: absolute;
+  right: 0;
+  top: 65px;
+  padding: 20px;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.firstPage .five .packedges-cont .left-box .price-cont h2, .firstPage .five .packedges-cont .mid-box .price-cont h2, .firstPage .five .packedges-cont .right-box .price-cont h2, .firstPage .five .packedges-cont-second .left-box .price-cont h2, .firstPage .five .packedges-cont-second .mid-box .price-cont h2, .firstPage .five .packedges-cont-second .right-box .price-cont h2 {
+  color: white;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.firstPage .five .packedges-cont .left-box .price-cont h2:last-child, .firstPage .five .packedges-cont .mid-box .price-cont h2:last-child, .firstPage .five .packedges-cont .right-box .price-cont h2:last-child, .firstPage .five .packedges-cont-second .left-box .price-cont h2:last-child, .firstPage .five .packedges-cont-second .mid-box .price-cont h2:last-child, .firstPage .five .packedges-cont-second .right-box .price-cont h2:last-child {
+  margin-left: 5px;
+}
+.firstPage .five .packedges-cont .left-box .price-cont h2 span, .firstPage .five .packedges-cont .mid-box .price-cont h2 span, .firstPage .five .packedges-cont .right-box .price-cont h2 span, .firstPage .five .packedges-cont-second .left-box .price-cont h2 span, .firstPage .five .packedges-cont-second .mid-box .price-cont h2 span, .firstPage .five .packedges-cont-second .right-box .price-cont h2 span {
+  font-size: 21px;
+  margin-right: 2px;
+}
+.firstPage .five .packedges-cont .left-box .price-cont h2:last-child, .firstPage .five .packedges-cont .mid-box .price-cont h2:last-child, .firstPage .five .packedges-cont .right-box .price-cont h2:last-child, .firstPage .five .packedges-cont-second .left-box .price-cont h2:last-child, .firstPage .five .packedges-cont-second .mid-box .price-cont h2:last-child, .firstPage .five .packedges-cont-second .right-box .price-cont h2:last-child {
+  font-size: 30px;
+}
 .firstPage .five .packedges-cont .left-box .main-point, .firstPage .five .packedges-cont .mid-box .main-point, .firstPage .five .packedges-cont .right-box .main-point, .firstPage .five .packedges-cont-second .left-box .main-point, .firstPage .five .packedges-cont-second .mid-box .main-point, .firstPage .five .packedges-cont-second .right-box .main-point {
   width: 100%;
   display: -webkit-box;
@@ -666,51 +712,6 @@ header .burgerIcon span {
 }
 .firstPage .five .packedges-cont .left-box .main-point h4, .firstPage .five .packedges-cont .mid-box .main-point h4, .firstPage .five .packedges-cont .right-box .main-point h4, .firstPage .five .packedges-cont-second .left-box .main-point h4, .firstPage .five .packedges-cont-second .mid-box .main-point h4, .firstPage .five .packedges-cont-second .right-box .main-point h4 {
   font-weight: 500;
-}
-.firstPage .five .packedges-cont .left-box .price-cont, .firstPage .five .packedges-cont .mid-box .price-cont, .firstPage .five .packedges-cont .right-box .price-cont, .firstPage .five .packedges-cont-second .left-box .price-cont, .firstPage .five .packedges-cont-second .mid-box .price-cont, .firstPage .five .packedges-cont-second .right-box .price-cont {
-  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 28% 100%);
-          clip-path: polygon(0 0, 100% 0%, 100% 100%, 28% 100%);
-  width: 85%;
-  margin: 25px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  background-color: var(--primary-color);
-  position: absolute;
-  right: 0;
-  top: 65px;
-  padding: 20px;
-  -webkit-box-shadow: var(--box-shadow);
-          box-shadow: var(--box-shadow);
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-}
-.firstPage .five .packedges-cont .left-box .price-cont h1, .firstPage .five .packedges-cont .mid-box .price-cont h1, .firstPage .five .packedges-cont .right-box .price-cont h1, .firstPage .five .packedges-cont-second .left-box .price-cont h1, .firstPage .five .packedges-cont-second .mid-box .price-cont h1, .firstPage .five .packedges-cont-second .right-box .price-cont h1 {
-  color: white;
-  font-weight: 500;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
-.firstPage .five .packedges-cont .left-box .price-cont h1:last-child, .firstPage .five .packedges-cont .mid-box .price-cont h1:last-child, .firstPage .five .packedges-cont .right-box .price-cont h1:last-child, .firstPage .five .packedges-cont-second .left-box .price-cont h1:last-child, .firstPage .five .packedges-cont-second .mid-box .price-cont h1:last-child, .firstPage .five .packedges-cont-second .right-box .price-cont h1:last-child {
-  margin-left: 5px;
-}
-.firstPage .five .packedges-cont .left-box .price-cont h1 span, .firstPage .five .packedges-cont .mid-box .price-cont h1 span, .firstPage .five .packedges-cont .right-box .price-cont h1 span, .firstPage .five .packedges-cont-second .left-box .price-cont h1 span, .firstPage .five .packedges-cont-second .mid-box .price-cont h1 span, .firstPage .five .packedges-cont-second .right-box .price-cont h1 span {
-  font-size: 25px;
-}
-.firstPage .five .packedges-cont .left-box .price-cont h1:last-child, .firstPage .five .packedges-cont .mid-box .price-cont h1:last-child, .firstPage .five .packedges-cont .right-box .price-cont h1:last-child, .firstPage .five .packedges-cont-second .left-box .price-cont h1:last-child, .firstPage .five .packedges-cont-second .mid-box .price-cont h1:last-child, .firstPage .five .packedges-cont-second .right-box .price-cont h1:last-child {
-  font-size: 30px;
 }
 .firstPage .five .packedges-cont .left-box .nested-point, .firstPage .five .packedges-cont .mid-box .nested-point, .firstPage .five .packedges-cont .right-box .nested-point, .firstPage .five .packedges-cont-second .left-box .nested-point, .firstPage .five .packedges-cont-second .mid-box .nested-point, .firstPage .five .packedges-cont-second .right-box .nested-point {
   width: 100%;
@@ -793,7 +794,7 @@ header .burgerIcon span {
 .firstPage .five .packedges-cont .mid-box .price-cont, .firstPage .five .packedges-cont-second .mid-box .price-cont {
   background-color: white;
 }
-.firstPage .five .packedges-cont .mid-box .price-cont h1, .firstPage .five .packedges-cont-second .mid-box .price-cont h1 {
+.firstPage .five .packedges-cont .mid-box .price-cont h2, .firstPage .five .packedges-cont-second .mid-box .price-cont h2 {
   color: var(--golden-color);
 }
 .firstPage .five .packedges-cont .mid-box button, .firstPage .five .packedges-cont-second .mid-box button {
