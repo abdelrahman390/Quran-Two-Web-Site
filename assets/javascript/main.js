@@ -1,12 +1,25 @@
-let lis = document.querySelectorAll("header ul li"),
-// #############
-secondPageToggel = document.querySelector(".five .max-width .toggle-box"),
-secondPageTogglRight = document.querySelector(".five .max-width .toggle-box .right"),
-secondPageTogglLeft = document.querySelector(".five .max-width .toggle-box .left"),
-secondPageFirstPlansCont = document.querySelector(".five .packedges-cont"),
-secondPageSecondPlansCont = document.querySelector(".five .packedges-cont-second"),
-// ##############
-therdPageMainTitle = document.querySelector(".therdPage .max-width > h1"),
+
+const currentPageName = window.location.pathname.split('/').pop();
+
+let lis = document.querySelectorAll("header ul li");
+
+if(currentPageName === 'index.html'){
+    secondPageToggel = document.querySelector(".five .max-width .toggle-box"),
+    secondPageTogglRight = document.querySelector(".five .max-width .toggle-box .right"),
+    secondPageTogglLeft = document.querySelector(".five .max-width .toggle-box .left"),
+    secondPageFirstPlansCont = document.querySelector(".five .packedges-cont"),
+    secondPageSecondPlansCont = document.querySelector(".five .packedges-cont-second");
+}
+// #####################
+if(currentPageName === 'packeges.html'){
+    secondPageToggel = document.querySelector(".secondPage .max-width .toggle-box"),
+    secondPageTogglRight = document.querySelector(".secondPage .max-width .toggle-box .right"),
+    secondPageTogglLeft = document.querySelector(".secondPage .max-width .toggle-box .left"),
+    secondPageFirstPlansCont = document.querySelector(".secondPage .packedges-cont"),
+    secondPageSecondPlansCont = document.querySelector(".secondPage .packedges-cont-second");
+}
+// #####################
+let therdPageMainTitle = document.querySelector(".therdPage .max-width > h1"),
 therdPageMainBoxes = document.querySelectorAll(".therdPage .max-width .boxes-container > .box"),
 therdPageMainInsideBoxes = document.querySelectorAll(".therdPage .max-width .boxes-container > .box .main"),
 therdPageSecondboxes = document.querySelectorAll(".therdPage .max-width .boxes-container > .box .second-page"),
@@ -16,23 +29,24 @@ let fifthPageBoxes = document.querySelectorAll('.fifthPage .max-width .boxes-con
 fifthPageExpandedText = document.querySelectorAll('.fifthPage .max-width .boxes-cont .box .opened');
 
 
-const currentPageName = window.location.pathname.split('/').pop();
+
 
 
 const width = window.innerWidth || document.documentElement.clientWidth;
-console.log(`Current window width: ${width}px`);
+// console.log(`Current window width: ${width}px`);
 let header = document.querySelector('header')
-let burger = document.querySelector('header .links_container .burgerIcon')
-let ul = document.querySelector('header .links_container ul')
-let a = document.querySelector('header .links_container ul li.active a:last-child')
+let ul = document.querySelector('header ul')
+let a = document.querySelector('header ul li.active a:last-child')
+let burger = document.querySelector('header .burgerIcon')
 
 
 
 
+// console.log(burger)
 
 if (width < 1150){
     burger.onclick = function burgerClick()  {
-        console.log('burger')
+        // console.log('burger')
 
         if(burger.classList.contains("checked")){
             burger.classList.remove("checked")
@@ -72,42 +86,15 @@ if (width < 1150){
     
         }
 
-    
-    // if (width < 900){
-    //     // smallScreen = () => {
-    //         // burgerClick()
-    //         if(!(burger.classList.contains("checked"))){
-    //             header.style.marginBottom = '320px !important'
-    //         }
-    //     // }
-    // }
 
     }
 }
 
-//  else{
-//     // burgerClick()
-//     if (width < 900){
-//         // smallScreen = () => {
-//             burgerClick()
-//             // if(!(burger.classList.contains("checked"))){
-//                 header.style.marginBottom = '320px !important'
-//             // }
-//         // }
-//     }
-// }
-
-// if (width < 900){
-//     function () {
-
-//     }
-// }
 
 
 
 
-
-// if (currentPageName === 'packeges.html'){
+if (currentPageName === 'packeges.html' || currentPageName === 'index.html'){
     function firstPageToggle() {
         // console.log(secondPageToggel.children)
         secondPageToggel.childNodes.forEach(element => {
@@ -127,7 +114,7 @@ if (width < 1150){
         });
     }
     firstPageToggle() 
-// }
+}
 
 
 if (currentPageName === 'systems.html'){
@@ -175,7 +162,6 @@ if (currentPageName === 'systems.html'){
 }
 
 if (currentPageName === 'Frequently-Asked-Questions.html'){
-
 
     fifthPageBoxes.forEach((element, index) => {
         
