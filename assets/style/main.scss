@@ -1510,6 +1510,10 @@ footer{
 }
 
 @media screen and (min-width: 2500px) {
+    header .icons{
+        max-width: 350px;
+    }
+
     .firstPage .three .max-width .container{
         justify-content: center;
     }
@@ -1544,6 +1548,27 @@ footer{
     .secondPage .max-width .packedges-cont-second .boxes-container{
         justify-content: center;
         gap: 100px;
+    }
+
+    .therdPage .max-width .boxes-container > .box .main{
+        max-width: 1500px;
+    }
+
+    .fourthPage .max-width .container {
+        justify-content: center;
+        gap: 120px;
+        & .right{
+            width: 50%;
+            max-width: 1000px;
+        }
+    }
+
+    .fifthPage .max-width .boxes-cont {
+        max-width: 1500px;
+    }
+
+    .sixthPage .max-width .mainBox{
+        max-width: 1400px;
     }
 
 }
