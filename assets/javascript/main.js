@@ -87,7 +87,7 @@ function doneMessage(amgSrc, messageCont, nextPage, buttonText, cancelButton, ca
 }
 
 // ############################################# Setting Page Start ###################################################
-document.documentElement.style.setProperty(`--primary-color`, localStorage.getItem(`--primary-color`) !== null ? localStorage.getItem(`--primary-color`) : '#24b151')
+document.documentElement.style.setProperty(`--primary-color`, localStorage.getItem(`--primary-color`) !== null ? localStorage.getItem(`--primary-color`) : '#07d8a6')
 document.documentElement.style.setProperty(`--NavBar-color`, localStorage.getItem(`--NavBar-color`) !== null ? localStorage.getItem(`--NavBar-color`) : '#FFFFFF')
 document.documentElement.style.setProperty(`--black-color`, localStorage.getItem(`--black-color`) !== null ? localStorage.getItem(`--black-color`) : '#000000')
 document.documentElement.style.setProperty(`--title-color`, localStorage.getItem(`--title-color`) !== null ? localStorage.getItem(`--title-color`) : '#000000')
