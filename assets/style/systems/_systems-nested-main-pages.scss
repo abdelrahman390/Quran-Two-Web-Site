@@ -1,0 +1,124 @@
+@use "../variables/components/buttons" as *;
+@use "../variables/components/inputs" as *;
+@use "../variables/components/titles" as *;
+
+$breakpoint-phone: 599px;
+$breakpoint-tablet: 959px;
+$breakpoint-desktop: 960px;
+
+@mixin General-Settings {
+    & .max-width {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & .links-cont {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            margin-top: 15px;
+            & a {
+                color: var(--primary-color);
+                font-size: 20px;
+                cursor: pointer;
+                text-decoration: revert;
+            }
+            & h4:first-child a {
+                pointer-events: none;
+                text-decoration: none;
+            }
+            & span {
+                font-size: 35px;
+            }
+            & .material-symbols-outlined {
+                font-variation-settings: "FILL" 1, "wght" 1000;
+                color: var(--primary-color);
+                font-size: 55px;
+                &:first-child {
+                    margin: 0;
+                }
+            }
+        }
+
+        & .title {
+            @include mainTitle;
+        }
+
+        & .nested-boxes {
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            & .box {
+                padding: 40px 20px;
+                flex: 1 1 calc(94% / 3);
+                max-width: calc(94% / 3);
+                width: 270px;
+                min-width: 225px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                height: 330px;
+                box-shadow: var(--box-shadow);
+                border-radius: 20px;
+                cursor: pointer;
+                & img {
+                    height: 140px;
+                }
+                & h2 {
+                    font-weight: 500;
+                    text-align: center;
+                    margin-top: 30px;
+                    color: black;
+                }
+            }
+        }
+    }
+
+    @media (max-width: #{$breakpoint-phone}) {
+        .max-width .nested-boxes {
+            & .box {
+                max-width: 75% !important;
+                color: red;
+            }
+        }
+    }
+
+    @media (min-width: #{$breakpoint-phone + 1}) and (max-width: #{$breakpoint-tablet}) {
+    }
+
+    @media (min-width: #{$breakpoint-desktop}) {
+    }
+
+    @media screen and (max-width: 1150px) {
+        .max-width .nested-boxes {
+            & .box {
+                max-width: 45%;
+            }
+        }
+    }
+
+    @media (max-width: 1350px) {
+        .max-width .nested-boxes {
+            width: 90%;
+        }
+    }
+}
+/*############################### systems-nested-main-pages ##############################*/
+.General-Settings,
+.powers,
+.calendar,
+.curricula,
+.employees,
+.episodes,
+.messages-and-notifications,
+.competition-and-programmes,
+.Educational-Supervision,
+.central-tests,
+.International-and-local-competitions,
+.Meeting-management,
+.reports {
+    @include General-Settings;
+}
+/*############################### systems-nested-main-pages ##############################*/
