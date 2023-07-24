@@ -1,10 +1,12 @@
 // ################################## header start ##############################
 @mixin header {
     background-color: var(--primary-color);
-    padding: 15px;
+    padding: 15px 0;
     & a,
     span {
         color: var(--NavBar-color) !important;
+        display: flex;
+        align-items: center;
     }
     & .max-width {
         display: flex;
@@ -13,6 +15,11 @@
         position: relative;
         align-items: center;
         width: 90%;
+    }
+    & .logo {
+        & img {
+            // w
+        }
     }
     & .links_container {
         display: flex;
@@ -85,7 +92,6 @@
                 display: flex;
                 align-items: center;
                 text-decoration: none;
-                margin: 5px 10px;
                 font-size: 20px;
                 color: var(--white-color);
                 cursor: pointer;
