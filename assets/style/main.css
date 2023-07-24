@@ -1181,11 +1181,17 @@ p {
 /*########################################## Header start ##########################################################*/
 header {
   background-color: var(--primary-color);
-  padding: 15px;
+  padding: 15px 0;
 }
 header a,
 header span {
   color: var(--NavBar-color) !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 header .max-width {
   display: -webkit-box;
@@ -1296,7 +1302,6 @@ header .icons li a {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin: 5px 10px;
   font-size: 20px;
   color: var(--white-color);
   cursor: pointer;
@@ -4802,6 +4807,9 @@ footer h2 {
 /*######################################## responsive style #############################################*/
 @media screen and (max-width: 600px) {
   /* Styles for screens that are 600px wide or less */
+  header .logo img {
+    width: 60px;
+  }
   header .links_container ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -4820,6 +4828,9 @@ footer h2 {
     right: -29px;
     bottom: 4px;
     border-radius: 50%;
+  }
+  header .icons {
+    gap: 10px;
   }
   .photos-slider .mainPageImgs img {
     height: 43vh !important;
