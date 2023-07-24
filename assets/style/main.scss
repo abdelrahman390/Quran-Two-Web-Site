@@ -2240,20 +2240,30 @@ footer {
 /*######################################## responsive style #############################################*/
 @media screen and (max-width: 600px) {
     /* Styles for screens that are 600px wide or less */
-    header .links_container ul {
-        flex-direction: column;
-        max-height: 285px !important;
-        & li {
-            position: relative;
-            margin: 5px 0;
-            &.active a:after {
-                content: "";
-                height: 15px;
-                width: 15px;
-                right: -29px;
-                bottom: 4px;
-                border-radius: 50%;
+    header {
+        & .logo{
+            & img{
+                width: 60px;
             }
+        }
+        & .links_container ul {
+            flex-direction: column;
+            max-height: 285px !important;
+            & li {
+                position: relative;
+                margin: 5px 0;
+                &.active a:after {
+                    content: "";
+                    height: 15px;
+                    width: 15px;
+                    right: -29px;
+                    bottom: 4px;
+                    border-radius: 50%;
+                }
+            }
+        }
+        & .icons {
+            gap: 10px;
         }
     }
 
