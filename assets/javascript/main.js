@@ -101,7 +101,7 @@ if (currentPageName === 'account-setting.html') {
     let saveButton = document.getElementById('saveButton')
     let logOutButton = document.querySelector('.account-setting .max-width .container .right .cont:nth-child(7)')
 
-    mainColorFontColor.value = localStorage.getItem(`--primary-color`) !== null ? localStorage.getItem(`--primary-color`) : '#24b151';
+    mainColorFontColor.value = localStorage.getItem(`--primary-color`) !== null ? localStorage.getItem(`--primary-color`) : '#07d8a6';
     navBarFontColor.value = localStorage.getItem(`--NavBar-color`) !== null ? localStorage.getItem(`--NavBar-color`) : '#FFFFFF';
     fontsColor.value = localStorage.getItem(`--black-color`) !== null ? localStorage.getItem(`--black-color`) : '#000000';
     MainTitleColor.value = localStorage.getItem(`--title-color`) !== null ? localStorage.getItem(`--title-color`) : '#000000';
@@ -143,7 +143,7 @@ if (currentPageName === 'account-setting.html') {
             localStorage.setItem(`--title-color`, '#000000')
             localStorage.setItem(`--black-color`, '#000000')
             localStorage.setItem(`--NavBar-color`, '#FFFFFF')
-            localStorage.setItem(`--primary-color`, '#07D8A6')
+            localStorage.setItem(`--primary-color`, '#07d8a6')
             window.location.reload()
         }
         doneMessage('../../assets/images/alarm.svg', 'هل انت متأكد من أعاده ضبط الإعدادات', ``, "إعادة ضبط", 'Done', 'Done')
