@@ -1,0 +1,34 @@
+@mixin inputs {
+    border: 1px solid var(--primary-color);
+    text-align: start;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    position: relative;
+    &:focus-visible {
+        border: 2px solid var(--gray-color);
+        outline: none;
+    }
+    &::-webkit-input-placeholder {
+        opacity: 0.6;
+        -webkit-transition: opacity 0.35s ease-in-out;
+        transition: opacity 0.35s ease-in-out;
+        font-size: 17px;
+        font-weight: 700;
+    }
+}
+
+@mixin textarea {
+    height: 230px !important;
+    width: 100%;
+    resize: none;
+    border-radius: 15px;
+    border: 2px solid var(--primary-color);
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 20px;
+    &:focus-visible {
+        border: 2px solid var(--gray-color);
+        outline: none;
+    }
+}
