@@ -251,7 +251,7 @@ if (currentPageName === 'pay') {
         }
 
         document.addEventListener('keydown', function (event) {
-            if (event.keyCode === 8 || event.which === 8) {
+            if (event.keyCode === 8 || event.which === 8 || event.keyCode === 46 || event.which === 46) {
                 // Add your code to execute when the backspace key is pressed
                 if (e.target.value.length === 3) {
                     cardExpireDate.value = e.target.value.slice(0, -1)
@@ -278,7 +278,7 @@ if (currentPageName === 'pay') {
         }
 
         document.addEventListener('keydown', function (event) {
-            if (event.keyCode === 8 || event.which === 8) {
+            if (event.keyCode === 8 || event.which === 8 || event.keyCode === 46 || event.which === 46) {
                 // // Add your code to execute when the backspace key is pressed
                 switch (x.target.value.length) {
                     case 5:
@@ -443,7 +443,7 @@ if (currentPageName === 'verification') {
     });
 
     document.addEventListener('keydown', function (event) {
-        if (event.keyCode === 8 || event.which === 8) {
+        if (event.keyCode === 8 || event.which === 8 || event.keyCode === 46 || event.which === 46) {
             // // Add your code to execute when the backspace key is pressed
             if (document.activeElement.dataset.number === '4') {
                 inputs[3].focus();
