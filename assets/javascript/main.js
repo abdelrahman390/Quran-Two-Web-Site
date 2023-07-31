@@ -734,10 +734,6 @@ if (currentPageName === 'loginPage' || 'Login-as-admin') {
         });
     });
 
-    // if (currentPageName ==='Login-as-admin'){
-    //     const lastPageUrl = window.history.previous || document.referrer;
-
-    // }
 
 }
 
