@@ -548,7 +548,7 @@ if (currentPageNameForNestedPages[currentPageNameForNestedPages.length - 1].spli
 
     }
 
-    // remove label if field is not empty
+    // remove label if field is not empty && get stored data from session storage
     inputs.forEach(element => {
         element.addEventListener('input', event => {
             // Hide the label if the input value is not 0
@@ -561,7 +561,7 @@ if (currentPageNameForNestedPages[currentPageNameForNestedPages.length - 1].spli
 
         // it return a stored value from inputs that have value and remove label from fields that have value
         if (sessionStorage.getItem([`${nameForSessionStorage}-inputs`]) !== null) {
-            if (JSON.parse(sessionStorage.getItem([`${nameForSessionStorage}-inputs`]))[element.parentElement.querySelector('h3').innerText] !== null) {
+            if (JSON.parse(sessionStorage.getItem([`${nameForSessionStorage}-inputs`]))[element.parentElement.querySelector('h3').innerText] !== undefined) {
                 element.value = JSON.parse(sessionStorage.getItem([`${nameForSessionStorage}-inputs`]))[element.parentElement.querySelector('h3').innerText]
                 element.parentElement.querySelector('label').classList.add('hidden');
             }
@@ -569,7 +569,7 @@ if (currentPageNameForNestedPages[currentPageNameForNestedPages.length - 1].spli
 
     });
 
-    // remove label if field is not empty
+    // remove label if field is not empty && get stored data from session storage
     selects.forEach(element => {
         element.addEventListener("change", function () {
             if (element.value !== '') {
