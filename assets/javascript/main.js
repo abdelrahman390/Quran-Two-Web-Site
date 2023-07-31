@@ -643,11 +643,11 @@ if (currentPageName === 'index' || currentPageName === 'packeges') {
         }
     });
 
-    if (currentPageName === 'index.html') {
+    if (currentPageName === 'index') {
         let ExtraPackeges = document.querySelectorAll('.mainPage .Comprehensive-services-in-the-association-package .text-cont button')
         ExtraPackeges.forEach(element => {
             element.onclick = () => {
-                doneMessage('../assets/images/Done.png', 'تم إضافة اشتراك الباقة إلى السلة', "../pages/cart/cart.html", 'حسناً')
+                doneMessage('assets/images/Done.png', 'تم إضافة اشتراك الباقة إلى السلة', "../pages/cart/cart.html", 'حسناً')
             }
         });
     }
