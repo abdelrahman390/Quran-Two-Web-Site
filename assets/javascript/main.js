@@ -618,7 +618,7 @@ if (width < 1150) {
     }
 }
 
-if (currentPageName === 'index' || currentPageName === 'packeges') {
+if (currentPageName === 'index') {
     function mainPageToggle() {
         toggleBox.childNodes.forEach(element => {
             element.onclick = (e) => {
@@ -636,6 +636,7 @@ if (currentPageName === 'index' || currentPageName === 'packeges') {
             }
         });
     }
+
     mainPageToggle()
     packagesButtons.forEach(element => {
         element.onclick = () => {
@@ -643,14 +644,39 @@ if (currentPageName === 'index' || currentPageName === 'packeges') {
         }
     });
 
-    if (currentPageName === 'index') {
-        let ExtraPackeges = document.querySelectorAll('.mainPage .Comprehensive-services-in-the-association-package .text-cont button')
-        ExtraPackeges.forEach(element => {
-            element.onclick = () => {
-                doneMessage('assets/images/Done.png', 'تم إضافة اشتراك الباقة إلى السلة', "pages/cart/cart.html", 'حسناً')
+    let ExtraPackeges = document.querySelectorAll('.mainPage .Comprehensive-services-in-the-association-package .text-cont button')
+    ExtraPackeges.forEach(element => {
+        element.onclick = () => {
+            doneMessage('assets/images/Done.png', 'تم إضافة اشتراك الباقة إلى السلة', "pages/cart/cart.html", 'حسناً')
+        }
+    });
+
+}
+
+if (currentPageName === 'packeges') {
+    function package() {
+        toggleBox.childNodes.forEach(element => {
+            element.onclick = (e) => {
+                if (e.currentTarget.classList.contains("right")) {
+                    packegesToggleLeft.classList.remove("checked")
+                    packegesToggleRight.classList.add("checked")
+                    packegesSecondPlansCont.style.display = "none"
+                    packegesFirstPlansCont.style.display = "flex"
+                } else if (e.currentTarget.classList.contains("left")) {
+                    packegesToggleRight.classList.remove("checked")
+                    packegesToggleLeft.classList.add("checked")
+                    packegesFirstPlansCont.style.display = "none"
+                    packegesSecondPlansCont.style.cssText = "display: unset !important"
+                }
             }
         });
     }
+    package()
+    packagesButtons.forEach(element => {
+        element.onclick = () => {
+            doneMessage('../assets/images/Done.png', 'تم إضافة اشتراك الباقة إلى السلة', "../pages/cart/cart.html", 'حسناً')
+        }
+    });
 }
 
 if (currentPageName === 'Frequently-Asked-Questions') {
@@ -808,6 +834,7 @@ if (currentPageNameForMainPageNested[currentPageNameForMainPageNested.length - 1
 
     // put latitude and longitude in input field [الموقع على الخريطةً]
     locationInput.value = sessionStorage.getItem(`${locationInput.dataset.name}-location`)
+    console.log((`${locationInput.dataset.name}-location`))
 
     // put name of government in input field [الحي] if user choose government
     if (sessionStorage.getItem([`${currentPageName}-government-data`]) !== null) {
