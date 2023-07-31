@@ -1,0 +1,12 @@
+@mixin mainTitle {
+    margin: 30px 0;
+    font-size: 31px;
+    color: var(--title-color) !important;
+}
+
+@mixin subTitle {
+    font-weight: 500;
+    text-align: center;
+    color: var(--gray-color);
+    font-size: 18px;
+}
