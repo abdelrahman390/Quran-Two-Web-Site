@@ -639,7 +639,7 @@ if (currentPageName === 'index' || currentPageName === 'packeges') {
     mainPageToggle()
     packagesButtons.forEach(element => {
         element.onclick = () => {
-            doneMessage('../assets/images/Done.png', 'تم إضافة اشتراك الباقة إلى السلة', "../pages/cart/cart.html", 'حسناً')
+            doneMessage('assets/images/Done.png', 'تم إضافة اشتراك الباقة إلى السلة', "pages/cart/cart.html", 'حسناً')
         }
     });
 
