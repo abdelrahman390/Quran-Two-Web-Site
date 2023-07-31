@@ -166,7 +166,6 @@ settingIconBoxColors.forEach(element => {
 });
 // ############################################# Setting Page End ###################################################
 
-
 if (width < 1150) {
     burger.onclick = function burgerClick() {
 
@@ -176,9 +175,6 @@ if (width < 1150) {
             header.style.marginBottom = '0'
             header.style.transition = '1s'
             ul.style.display = 'none'
-            settingIcon.style.display = 'none';
-
-            settingIconBox.classList.remove('open')
 
         } else if (!(burger.classList.contains("checked"))) {
             burger.classList.add("checked")
@@ -186,24 +182,19 @@ if (width < 1150) {
             if (width < 900) {
                 header.style.marginBottom = '320px'
             } else {
-                header.style.marginBottom = '100px'
+                header.style.marginBottom = '90px'
             }
 
-            header.style.transition = '1s'
+            header.style.transition = '0.7s'
 
             function headerTimeOut() {
-                if (width < 900) {
-                    ul.style.cssText = 'display: flex; max-height: 150px; padding: 25px; transition: 0.5s; padding-right: 75px; border-top: 1px solid black;'
-                } else {
-                    ul.style.cssText = 'display: flex; max-height: 150px; padding: 25px; transition: 0.5s; padding-right: 75px; border-top: 1px solid black;'
-                }
+                ul.style.cssText = 'display: flex; max-height: 150px; padding: 25px; transition: 0.5s;  border-top: 1px solid black;'
             }
             setTimeout(headerTimeOut, 500);
 
         }
     }
 }
-
 
 if (currentPageName === 'technical-support') {
     const technicalSupportButton = document.querySelector('.technical-support .max-width .container .right form button ');
@@ -586,36 +577,6 @@ if (currentPageNameForNestedPages[currentPageNameForNestedPages.length - 1].spli
 
     });
 
-}
-
-if (width < 1150) {
-    burger.onclick = function burgerClick() {
-
-        if (burger.classList.contains("checked")) {
-            burger.classList.remove("checked")
-            ul.style.cssText = 'max-height: 0; padding: 0; transition: 1s; display: flex; border-top: 1px solid black;'
-            header.style.marginBottom = '0'
-            header.style.transition = '1s'
-            ul.style.display = 'none'
-
-        } else if (!(burger.classList.contains("checked"))) {
-            burger.classList.add("checked")
-
-            if (width < 900) {
-                header.style.marginBottom = '320px'
-            } else {
-                header.style.marginBottom = '90px'
-            }
-
-            header.style.transition = '0.7s'
-
-            function headerTimeOut() {
-                ul.style.cssText = 'display: flex; max-height: 150px; padding: 25px; transition: 0.5s;  border-top: 1px solid black;'
-            }
-            setTimeout(headerTimeOut, 500);
-
-        }
-    }
 }
 
 if (currentPageName === 'index') {
