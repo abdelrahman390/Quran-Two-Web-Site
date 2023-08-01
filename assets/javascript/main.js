@@ -4,7 +4,8 @@ const width = window.innerWidth || document.documentConsclientWidth;
 // ############## current Page Name ###############
 const currentPageName = window.location.pathname.split('/').pop().split('.')[0]
 
-console.log(currentPageName)
+const sectionName = document.querySelector('section').className
+
 
 let toggleBox,
     packegesToggleRight,
@@ -13,7 +14,7 @@ let toggleBox,
     packegesSecondPlansCont,
     packagesButtons;
 
-if (currentPageName === 'index') {
+if (sectionName === 'mainPage') {
     toggleBox = document.querySelector(".mainPage .packeges .max-width .toggle-box"),
         packegesToggleRight = document.querySelector(".mainPage .packeges .max-width .toggle-box .right"),
         packegesToggleLeft = document.querySelector(".mainPage .packeges .max-width .toggle-box .left"),
@@ -434,6 +435,9 @@ if (currentPageName === 'verification') {
             if (inputs[1].value.length !== 0) {
                 inputs[0].focus();
             }
+            if (inputs[0].value.length === 2) {
+                inputs[0].value = inputs[0].value.slice(0, -1)
+            }
 
             if (inputs[3].value.length === 0 && document.activeElement.dataset.number === '1') {
                 inputs[3].value = document.activeElement.value
@@ -580,7 +584,7 @@ if (currentPageNameForNestedPages[currentPageNameForNestedPages.length - 1].spli
 
 }
 
-if (currentPageName === 'index') {
+if (sectionName === 'mainPage') {
     function mainPageToggle() {
         toggleBox.childNodes.forEach(element => {
             element.onclick = (e) => {
@@ -700,7 +704,7 @@ if (currentPageName === 'newPassword') {
 
 }
 
-if (currentPageName === 'loginPage' || 'Login-as-admin') {
+if (currentPageName === 'loginPage') {
     let inputs = document.querySelectorAll('.max-width input')
     let button = document.querySelector('.max-width .container .right form .button')
 
@@ -718,11 +722,30 @@ if (currentPageName === 'loginPage' || 'Login-as-admin') {
                 }
             }
             handleClick()
-
         });
     });
+}
 
+if (currentPageName === 'Login-as-admin') {
+    let inputs = document.querySelectorAll('.max-width input')
+    let button = document.querySelector('.max-width .container .right form .button')
 
+    inputs.forEach(element => {
+        element.addEventListener('input', function (event) {
+            function handleClick() {
+                const inputsCheckState = [...inputs].every(input => {
+                    return input.value.length !== 0;
+                });
+
+                if (inputsCheckState === true) {
+                    button.style.cssText = 'opacity: 1; pointer-events: painted;'
+                } else {
+                    button.style.cssText = 'opacity: 0.5; pointer-events: none;'
+                }
+            }
+            handleClick()
+        });
+    });
 }
 
 if (currentPageName === 'CreateAccount') {
@@ -739,13 +762,20 @@ if (currentPageName === 'CreateAccount') {
 
                 if (inputsCheckState === true) {
                     if (emailInput.checkValidity()) {
-                        button.style.cssText = 'opacity: 1; pointer-events: painted;'
+                        if (inputs[2].value === inputs[3].value) {
+                            button.style.cssText = 'opacity: 1; pointer-events: painted;'
+                        } else {
+                            button.style.cssText = 'opacity: 0.5; pointer-events: none;'
+                        }
                     }
                 } else {
                     button.style.cssText = 'opacity: 0.5; pointer-events: none;'
                 }
             }
             handleClick()
+
+            console.log(inputs[2].value)
+            console.log(inputs[3].value)
 
         });
     });
