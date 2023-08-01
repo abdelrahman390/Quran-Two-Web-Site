@@ -4,6 +4,8 @@ const width = window.innerWidth || document.documentConsclientWidth;
 // ############## current Page Name ###############
 const currentPageName = window.location.pathname.split('/').pop().split('.')[0]
 
+console.log(currentPageName)
+
 let toggleBox,
     packegesToggleRight,
     packegesToggleLeft,
