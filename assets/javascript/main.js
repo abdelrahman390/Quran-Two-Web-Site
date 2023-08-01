@@ -6,7 +6,6 @@ const currentPageName = window.location.pathname.split('/').pop().split('.')[0]
 
 const sectionName = document.querySelector('section').className
 
-
 let toggleBox,
     packegesToggleRight,
     packegesToggleLeft,
