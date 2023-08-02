@@ -54,13 +54,6 @@ function FixWhiteSpace() {
 
     if (jsFile !== undefined) {
         errorFixFile.src = `${jsFile}assets/javascript/whiteSpaceErrorFix.js`
-
-        setTimeout(function () {
-            document.body.appendChild(errorFixFile)
-        }, 500);
-    } else {
-        errorFixFile.src = `assets/javascript/whiteSpaceErrorFix.js`
-
         setTimeout(function () {
             document.body.appendChild(errorFixFile)
         }, 500);
