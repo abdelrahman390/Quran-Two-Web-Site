@@ -48,6 +48,7 @@ let FrequentlyAskedQuestionsBoxes = document.querySelectorAll('.Frequently-Asked
 // ##############
 let logOutButton = document.querySelector(' .max-width .container .right .cont.logoutButton')
 
+
 function FixWhiteSpace() {
     let errorFixFile = document.createElement('script')
     let jsFile = document.querySelector('script.main').dataset.location
@@ -55,8 +56,8 @@ function FixWhiteSpace() {
     if (jsFile !== undefined) {
         errorFixFile.src = `${jsFile}assets/javascript/whiteSpaceErrorFix.js`
         setTimeout(function () {
-            document.body.appendChild(errorFixFile)
-        }, 500);
+            document.head.appendChild(errorFixFile)
+        }, 1000);
     }
 }
 FixWhiteSpace()
@@ -430,10 +431,12 @@ if (currentPageName === 'verification') {
     const inputs = document.querySelectorAll('.verification .max-width .container .right .cont input');
     const button = document.querySelector('.verification .max-width .container .right .button');
 
-    inputs.forEach(element => {
+    inputs.forEach((element, index) => {
         element.onkeyup = () => {
             if (inputs[0].value.length !== 0 && inputs[1].value.length !== 0 && inputs[2].value.length !== 0 && inputs[3].value.length !== 0) {
-                button.style.pointerEvents = 'unset'
+                button.style.cssText = 'pointerEvents: unset; opacity: 1'
+            } else {
+                button.style.cssText = 'pointerEvents: none; opacity: 0.5'
             }
             if (inputs[3].value.length !== 0) {
                 inputs[2].focus();
@@ -834,7 +837,6 @@ if (currentPageNameForMainPageNested[currentPageNameForMainPageNested.length - 1
 
     // put latitude and longitude in input field [الموقع على الخريطةً]
     locationInput.value = sessionStorage.getItem(`${locationInput.dataset.name}-location`)
-    console.log((`${locationInput.dataset.name}-location`))
 
     // put name of government in input field [الحي] if user choose government
     if (sessionStorage.getItem([`${currentPageName}-government-data`]) !== null) {
@@ -898,6 +900,34 @@ if (currentPageNameForMainPageNested[currentPageNameForMainPageNested.length - 1
             }
         }
     });
+
+    function scrollTO() {
+        const lastPageUrl = window.history.previous || document.referrer;
+        // return boolean value Based on inputs
+        let inputsBooleanCondition = (input[0].value.length !== 0 && input[1].value.length !== 0 && input[2].value.length !== 0 && input[3].value.length !== 0 && select[0].value !== '')
+        let registrationStartButton = document.querySelector('.max-width .container .textCont button')
+
+        registrationStartButton.onclick = () => {
+            window.scrollTo({
+                top: 500,
+                behavior: "smooth",
+            });
+        }
+
+        if (lastPageUrl.split('/')[lastPageUrl.split('/').length - 1].split('.')[0] === 'map') {
+            window.scrollTo({
+                top: 630,
+                behavior: "smooth",
+            });
+            if (inputsBooleanCondition) {
+                window.scrollTo({
+                    top: 1050,
+                    behavior: "smooth",
+                });
+            }
+        }
+    }
+    scrollTO()
 
 }
 
