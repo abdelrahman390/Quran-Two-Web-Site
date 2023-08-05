@@ -321,8 +321,6 @@ if (currentPageName === 'Add-a-central-test-and-register-for-the-test') {
 if (currentPageName === 'systems') {
     const lastPageUrl = window.history.previous || document.referrer;
     let overLay = document.querySelector('.systems .overlay')
-    console.log(lastPageUrl)
-    console.log(lastPageUrl.split('/')[lastPageUrl.split('/').length - 1].split('.')[0])
 
     if (lastPageUrl.split('/')[lastPageUrl.split('/').length - 1].split('.')[0] === 'account-admin') {
         overLay.style.display = 'none'
@@ -431,35 +429,6 @@ if (currentPageName === 'verification') {
     const inputs = document.querySelectorAll('.verification .max-width .container .right .cont input');
     const button = document.querySelector('.verification .max-width .container .right .button');
 
-    inputs.forEach((element, index) => {
-        element.onkeyup = () => {
-            if (inputs[0].value.length !== 0 && inputs[1].value.length !== 0 && inputs[2].value.length !== 0 && inputs[3].value.length !== 0) {
-                button.style.cssText = 'pointerEvents: unset; opacity: 1'
-            } else {
-                button.style.cssText = 'pointerEvents: none; opacity: 0.5'
-            }
-            if (inputs[3].value.length !== 0) {
-                inputs[2].focus();
-            }
-            if (inputs[2].value.length !== 0) {
-                inputs[1].focus();
-            }
-            if (inputs[1].value.length !== 0) {
-                inputs[0].focus();
-            }
-            if (inputs[0].value.length === 2) {
-                inputs[0].value = inputs[0].value.slice(0, -1)
-            }
-
-            if (inputs[3].value.length === 0 && document.activeElement.dataset.number === '1') {
-                inputs[3].value = document.activeElement.value
-                document.activeElement.value = ''
-                inputs[2].focus()
-            }
-        }
-
-    });
-
     document.addEventListener('keydown', function (event) {
         if (event.keyCode === 8 || event.which === 8 || event.keyCode === 46 || event.which === 46) {
             // // Add your code to execute when the backspace key is pressed
@@ -477,10 +446,60 @@ if (currentPageName === 'verification') {
             }
             if (document.activeElement.dataset.number === '1') {
                 inputs[1].value = ''
-                inputs[0].focus();
+                inputs[0].value = ''
+                inputs[1].focus();
                 return
             }
         }
+
+    });
+
+    inputs.forEach((element) => {
+        element.onkeyup = () => {
+            if (inputs[0].value.length !== 0 && inputs[1].value.length !== 0 && inputs[2].value.length !== 0 && inputs[3].value.length !== 0) {
+                button.style.cssText = 'pointer-events: auto; opacity: 1;'
+            } else {
+                button.style.cssText = 'pointer-events: none; opacity: 0.5'
+            }
+            if (inputs[3].value.length !== 0) {
+                inputs[2].focus();
+            }
+            if (inputs[2].value.length !== 0) {
+                inputs[1].focus();
+            }
+            if (inputs[1].value.length !== 0) {
+                inputs[0].focus();
+            }
+            if (inputs[0].value.length === 2) {
+                inputs[0].value = inputs[0].value.slice(0, -1)
+            }
+
+            // first case Example => If input 3 from the left is blank and user put a number in input 4
+            if (element.dataset.number === '1' && inputs[1].value.length === 0 && inputs[2].value.length !== 0 && inputs[3].value.length !== 0) {
+                console.log('doneThree')
+                inputs[1].value = element.value
+                element.value = ''
+                inputs[0].focus()
+            }
+
+            // second case Example => If input 2 from the left is blank and input 1 not empty and user put a number in input 3 or 4
+            if (element.dataset.number !== '4' && element.dataset.number !== '3' && inputs[3].value.length !== 0 && inputs[2].value.length === 0) {
+                console.log('doneTwo')
+                inputs[2].value = element.value
+                element.value = ''
+                inputs[1].focus()
+            }
+
+            // first case Example => If input 1 from the left is blank and user put a number in any input but not input 1
+            if (element.dataset.number !== '4' && inputs[3].value.length === 0) {
+                console.log('done')
+                inputs[3].value = element.value
+                element.value = ''
+                inputs[2].focus()
+            }
+
+        }
+
     });
 
 }
@@ -682,7 +701,7 @@ if (currentPageName === 'account-subscription') {
 
     buttons.forEach(element => {
         element.onclick = () => {
-            doneMessage('../../assets/images/alarm.svg', 'هل انت متأكد من حزف الخدمه', "account-subscription.html", 'إلغاء', 'done', "account-subscription.html")
+            doneMessage('../../assets/images/alarm.svg', 'هل أنت متأكد من حذف هذه الخدمة', "account-subscription.html", 'إلغاء', 'done', "account-subscription.html")
         }
     });
 }
@@ -786,9 +805,6 @@ if (currentPageName === 'CreateAccount') {
             }
             handleClick()
 
-            console.log(inputs[2].value)
-            console.log(inputs[3].value)
-
         });
     });
 }
@@ -835,7 +851,7 @@ if (currentPageNameForMainPageNested[currentPageNameForMainPageNested.length - 1
 
     }
 
-    // put latitude and longitude in input field [الموقع على الخريطةً]
+    // put latitude and longitude in input field [الموقع على الخريطه]
     locationInput.value = sessionStorage.getItem(`${locationInput.dataset.name}-location`)
 
     // put name of government in input field [الحي] if user choose government
@@ -971,7 +987,7 @@ if (currentPageName === 'map') {
             var long = coord[1].split(")");
 
             let location = lat[1] + long[0];
-            // console.log(location)
+
             sessionStorage.setItem([`${(sessionStorage.getItem('currentNewRegistrationPageName').split('/').pop().split('.')[0]).split('-')[3]}-location`], location)
         });
     }
