@@ -971,11 +971,20 @@ if (currentPageName === 'map') {
         }
 
 
+
+        // var searchLens = L.marker([Latitude, Longitude], { icon: myIcon }, { draggable: true }).addTo(map);
+
         L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
             attribution: "© OpenStreetMap",
         }).addTo(map);
 
+        var myIcon = L.icon({
+            iconUrl: '../assets/javascript/map/images/mosque-marker.png',
+            iconSize: [50, 80]
+        });
+
         var marker = new L.marker([Latitude, Longitude], {
+            icon: myIcon,
             draggable: true,
             autoPan: true,
         }).addTo(map);
@@ -985,11 +994,12 @@ if (currentPageName === 'map') {
 
             var lat = coord[0].split("(");
             var long = coord[1].split(")");
-
             let location = lat[1] + long[0];
 
             sessionStorage.setItem([`${(sessionStorage.getItem('currentNewRegistrationPageName').split('/').pop().split('.')[0]).split('-')[3]}-location`], location)
         });
+
+
     }
 
 }
