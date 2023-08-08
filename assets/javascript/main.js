@@ -3,32 +3,14 @@ const width = window.innerWidth || document.documentConsclientWidth;
 // ############## current Page Name ###############
 const currentPageName = window.location.pathname.split('/').pop().split('.')[0]
 const sectionName = document.querySelector('section').className
-
-let toggleBox,
-    packegesToggleRight,
-    packegesToggleLeft,
-    packegesFirstPlansCont,
-    packegesSecondPlansCont,
-    packagesButtons;
-
-if (sectionName === 'mainPage') {
-    toggleBox = document.querySelector(".mainPage .packeges .max-width .toggle-box"),
-        packegesToggleRight = document.querySelector(".mainPage .packeges .max-width .toggle-box .right"),
-        packegesToggleLeft = document.querySelector(".mainPage .packeges .max-width .toggle-box .left"),
-        packegesFirstPlansCont = document.querySelector(".mainPage .packeges .packeges-cont"),
-        packegesSecondPlansCont = document.querySelector(".mainPage .packeges .packeges-cont-second");
-    packagesButtons = document.querySelectorAll('.mainPage .packeges .max-width .packeges-cont .left-box button, .mainPage .packeges .max-width .packeges-cont .mid-box button, .mainPage .packeges .max-width .packeges-cont .right-box button, .mainPage .packeges .max-width .packeges-cont-second .left-box button, .mainPage .packeges .max-width .packeges-cont-second .mid-box button, .mainPage .packeges .max-width .packeges-cont-second .right-box button');
-}
-// ###################### packeges Page ######################
-if (currentPageName === 'packeges') {
-    toggleBox = document.querySelector(".packeges .max-width .toggle-box"),
-        packegesToggleRight = document.querySelector(".packeges .max-width .toggle-box .right"),
-        packegesToggleLeft = document.querySelector(".packeges .max-width .toggle-box .left"),
-        packegesFirstPlansCont = document.querySelector(".packeges .packeges-cont"),
-        packegesSecondPlansCont = document.querySelector(".packeges .packeges-cont-second");
-    packagesButtons = document.querySelectorAll('.packeges .max-width .packeges-cont .left-box button, .packeges .max-width .packeges-cont .mid-box button, .packeges .max-width .packeges-cont .right-box button, .packeges .max-width .packeges-cont-second .left-box button, .packeges .max-width .packeges-cont-second .mid-box button, .packeges .max-width .packeges-cont-second .right-box button');
-}
-
+// ############# index page && packeges page #############
+let toggleBox = document.querySelector(".packeges .max-width .toggle-box"),
+    packegesToggleRight = document.querySelector(".packeges .max-width .toggle-box .right"),
+    packegesToggleLeft = document.querySelector(".packeges .max-width .toggle-box .left"),
+    packegesFirstPlansCont = document.querySelector(".packeges .packeges-cont"),
+    packegesSecondPlansCont = document.querySelector(".packeges .packeges-cont-second"),
+    packagesButtons = document.querySelectorAll('.packeges .max-width .packeges-cont button, .packeges .max-width .packeges-cont-second button');
+// ############# header #############
 let header = document.querySelector('header'),
     lis = document.querySelectorAll("header ul li"),
     burger = document.querySelector('header .max-width .right .links_container .burgerIcon'),
@@ -36,16 +18,16 @@ let header = document.querySelector('header'),
     settingIcon = document.querySelector('header .max-width .right .links_container .setting span'),
     settingIconBox = document.querySelector('header .right .links_container .setting .box'),
     settingIconBoxColors = document.querySelectorAll('header .right .links_container .setting .box span');
-// #############
+// ############# systems #############
 let systemsMainTitle = document.querySelector(".systems .max-width > h1"),
     systemsMainBoxes = document.querySelectorAll(".systems .max-width .boxes-container > .box"),
     systemsMainInsideBoxes = document.querySelectorAll(".systems .max-width .boxes-container > .box .main"),
     systemsSecondBoxes = document.querySelectorAll(".systems .max-width .boxes-container > .box .second-page"),
     systemsSecondBoxesPrevious = document.querySelectorAll(".systems .boxes-container > .box .second-page .links-cont h4:last-child a");
-// ##############
+// ############# Frequently-Asked-Questions #############
 let FrequentlyAskedQuestionsBoxes = document.querySelectorAll('.Frequently-Asked-Questions .max-width .boxes-cont .box'),
     FrequentlyAskedQuestionsExpandedText = document.querySelectorAll('.Frequently-Asked-Questions .max-width .boxes-cont .box .opened');
-// ##############
+// ############# account #############
 let logOutButton = document.querySelector(' .max-width .container .right .cont.logoutButton')
 
 
