@@ -37,5 +37,5 @@ inputs.forEach(element => {
 accountNewPasswordButtons.onclick = () => {
     doneMessage('../../../../assets/images/Done.png', 'تم تغيير كلمة المرور بنجاح', "../../../../pages/account/admin-account/account-admin.html", 'حسناً')
 }
-let logOutButton = document.querySelector(' .max-width .container .right .cont.logoutButton')
+
 
