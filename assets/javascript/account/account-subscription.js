@@ -5,12 +5,3 @@ packegesDeleteButton.forEach(element => {
         doneMessage('../../assets/images/alarm.svg', 'هل انت متأكد من مسح الباقة', "", 'موافق', '', 'done')
     }
 });
-
-function FixWhiteSpace() {
-    let errorFixFile = document.createElement('script')
-    errorFixFile.src = `../../assets/javascript/whiteSpaceErrorFix.js`
-    setTimeout(function () {
-        document.head.appendChild(errorFixFile)
-    }, 1000);
-}
-FixWhiteSpace()
