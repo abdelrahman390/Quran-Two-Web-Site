@@ -69,13 +69,6 @@
 
 <main>
     <section class="systems">
-        <div class="overlay">
-            <div class="box">
-                <img src="../../assets/images/alarm.svg" alt="alarm">
-                <h2>يجب تسجيل الدخول كمشرف لتتمكن من الدخول إلى الأنظمة</h2>
-                <a href="../account/admin-account/Login-as-admin.html">دخول كمشرف</a>
-            </div>
-        </div>
         <div class="max-width">
             <h1 class="title">الأنظمة</h1>
 
@@ -145,18 +138,15 @@
         src="https://kit.fontawesome.com/bffd8461fc.js"
         crossorigin="anonymous"
     ></script>
-            <script class="main" data-location="../../" src="../../assets/javascript/main.js"></script>
+
     <script>
         function FixWhiteSpace() {
             let errorFixFile = document.createElement('script')
-            let jsFile = document.querySelector('script.main').dataset.location
 
-            if (jsFile !== undefined) {
                 errorFixFile.src = `../../assets/javascript/whiteSpaceErrorFix.js`
                 setTimeout(function () {
                     document.head.appendChild(errorFixFile)
                 }, 1000);
-            }
         }
         FixWhiteSpace()
     </script>
