@@ -101,64 +101,86 @@
                             </div>
 
                             <div class="box">
-                                <h2>يمكنك الدفع بواسطة</h2>
-                                <div class="icons">
-                                    <img
-                                        src="../../assets/images/masterCard-logo.png"
-                                        alt="masterCard"
-                                    />
-                                    <img
-                                        src="../../assets/images/visa-logo.png"
-                                        alt="visa-logo"
-                                    />
-                                </div>
-
-                                <div class="inputs">
-                                    <div class="cont">
-                                        <span class="material-symbols-outlined">
-                                            person
-                                        </span>
-                                        <input
-                                            type="text"
-                                            placeholder="اسم حامل البطاقة"
+                                <form
+                                    action=""
+                                    style="
+                                        display: flex;
+                                        flex-direction: column;
+                                    "
+                                >
+                                    <h2>يمكنك الدفع بواسطة</h2>
+                                    <div class="icons">
+                                        <img
+                                            src="../../assets/images/masterCard-logo.png"
+                                            alt="masterCard"
+                                        />
+                                        <img
+                                            src="../../assets/images/visa-logo.png"
+                                            alt="visa-logo"
                                         />
                                     </div>
 
-                                    <div class="cont">
-                                        <span class="material-symbols-outlined">
-                                            badge
-                                        </span>
-                                        <input
-                                            type="text"
-                                            placeholder="رقم البطاقة"
-                                            maxlength="19"
-                                        />
-                                    </div>
+                                    <div class="inputs">
+                                        <div class="cont">
+                                            <span
+                                                class="material-symbols-outlined"
+                                            >
+                                                person
+                                            </span>
+                                            <input
+                                                type="text"
+                                                placeholder="اسم حامل البطاقة"
+                                                required
+                                            />
+                                        </div>
 
-                                    <div class="cont">
-                                        <span class="material-symbols-outlined">
-                                            calendar_month
-                                        </span>
-                                        <input
-                                            type="text"
-                                            placeholder="تاريخ الانتهاء"
-                                            id="mmmm"
-                                            maxlength="5"
-                                        />
-                                    </div>
+                                        <div class="cont">
+                                            <span
+                                                class="material-symbols-outlined"
+                                            >
+                                                badge
+                                            </span>
+                                            <input
+                                                type="text"
+                                                placeholder="رقم البطاقة"
+                                                minlength="19"
+                                                maxlength="19"
+                                                required
+                                            />
+                                        </div>
 
-                                    <div class="cont">
-                                        <span class="material-symbols-outlined">
-                                            security
-                                        </span>
-                                        <input
-                                            type="password"
-                                            placeholder="CVV / رمز الأمان"
-                                            maxlength="3"
-                                        />
+                                        <div class="cont">
+                                            <span
+                                                class="material-symbols-outlined"
+                                            >
+                                                calendar_month
+                                            </span>
+                                            <input
+                                                type="text"
+                                                placeholder="تاريخ الانتهاء"
+                                                id="mmmm"
+                                                maxlength="5"
+                                                required
+                                            />
+                                        </div>
+
+                                        <div class="cont">
+                                            <span
+                                                class="material-symbols-outlined"
+                                            >
+                                                security
+                                            </span>
+                                            <input
+                                                type="password"
+                                                placeholder="CVV / رمز الأمان"
+                                                minlength="3"
+                                                maxlength="3"
+                                                required
+                                            />
+                                        </div>
                                     </div>
-                                </div>
-                                <button>تأكيد الدفع</button>
+                                    <button type="submit">تأكيد الدفع</button>
+                                </form>
                             </div>
                         </div>
 
@@ -184,23 +206,17 @@
             <h2>جميع الحقوق محفوظه 2023 - 1444</h2>
         </footer>
 
-        <script
-            class="main"
-            data-location="../../"
-            src="../../assets/javascript/main.js"
-        ></script>
+        <script src="../../assets/javascript/cart/pay.js"></script>
+        <script src="../../assets/javascript/nav.js"></script>
+        <script src="../../assets/javascript/message.js"></script>
         <script>
             function FixWhiteSpace() {
                 let errorFixFile = document.createElement("script");
-                let jsFile =
-                    document.querySelector("script.main").dataset.location;
 
-                if (jsFile !== undefined) {
-                    errorFixFile.src = `../../assets/javascript/whiteSpaceErrorFix.js`;
-                    setTimeout(function () {
-                        document.head.appendChild(errorFixFile);
-                    }, 1000);
-                }
+                errorFixFile.src = `../../assets/javascript/whiteSpaceErrorFix.js`;
+                setTimeout(function () {
+                    document.head.appendChild(errorFixFile);
+                }, 1000);
             }
             FixWhiteSpace();
         </script>
