@@ -1685,7 +1685,7 @@ header {
                     font-size: 20px;
                 }
             }
-            & > a {
+            & > .button {
                 @include button;
                 width: auto;
                 padding: 19px;
