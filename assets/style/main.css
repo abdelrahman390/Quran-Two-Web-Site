@@ -1016,6 +1016,49 @@
   -webkit-appearance: none;
   margin: 0;
 }
+.free-and-occupied-days .max-width .cont input::-webkit-file-upload-button, .free-and-occupied-days .max-width .cont select::-webkit-file-upload-button, .Add-specific-groups .max-width .cont input::-webkit-file-upload-button, .Add-specific-groups .max-width .cont select::-webkit-file-upload-button, .Add-an-academic-year .max-width .cont input::-webkit-file-upload-button, .Add-an-academic-year .max-width .cont select::-webkit-file-upload-button, .Event-reminder .max-width .cont input::-webkit-file-upload-button, .Event-reminder .max-width .cont select::-webkit-file-upload-button, .calendar .max-width .cont input::-webkit-file-upload-button, .calendar .max-width .cont select::-webkit-file-upload-button, .Link-job-titles-to-groups .max-width .cont input::-webkit-file-upload-button, .Link-job-titles-to-groups .max-width .cont select::-webkit-file-upload-button, .Add-a-unified-Quran .max-width .cont input::-webkit-file-upload-button, .Add-a-unified-Quran .max-width .cont select::-webkit-file-upload-button, .Add-curriculum .max-width .cont input::-webkit-file-upload-button, .Add-curriculum .max-width .cont select::-webkit-file-upload-button, .Add-the-recorded-Quran .max-width .cont input::-webkit-file-upload-button, .Add-the-recorded-Quran .max-width .cont select::-webkit-file-upload-button, .Adding-content .max-width .cont input::-webkit-file-upload-button, .Adding-content .max-width .cont select::-webkit-file-upload-button, .Content-modification .max-width .cont input::-webkit-file-upload-button, .Content-modification .max-width .cont select::-webkit-file-upload-button, .Add-administrative-structure-and-levels .max-width .cont input::-webkit-file-upload-button, .Add-administrative-structure-and-levels .max-width .cont select::-webkit-file-upload-button, .Amending-the-administrative-structure .max-width .cont input::-webkit-file-upload-button, .Amending-the-administrative-structure .max-width .cont select::-webkit-file-upload-button, .Add-a-domain-account .max-width .cont input::-webkit-file-upload-button, .Add-a-domain-account .max-width .cont select::-webkit-file-upload-button, .Add-an-email-account .max-width .cont input::-webkit-file-upload-button, .Add-an-email-account .max-width .cont select::-webkit-file-upload-button, .Create-additional-services .max-width .cont input::-webkit-file-upload-button, .Create-additional-services .max-width .cont select::-webkit-file-upload-button, .Create-packages-and-services .max-width .cont input::-webkit-file-upload-button, .Create-packages-and-services .max-width .cont select::-webkit-file-upload-button, .Add-an-electronic-payment-gateway .max-width .cont input::-webkit-file-upload-button, .Add-an-electronic-payment-gateway .max-width .cont select::-webkit-file-upload-button, .Register-a-new-association .max-width .cont input::-webkit-file-upload-button, .Register-a-new-association .max-width .cont select::-webkit-file-upload-button {
+  display: none;
+}
+.free-and-occupied-days .max-width .cont input::file-selector-button,
+.free-and-occupied-days .max-width .cont select::file-selector-button,
+.Add-specific-groups .max-width .cont input::file-selector-button,
+.Add-specific-groups .max-width .cont select::file-selector-button,
+.Add-an-academic-year .max-width .cont input::file-selector-button,
+.Add-an-academic-year .max-width .cont select::file-selector-button,
+.Event-reminder .max-width .cont input::file-selector-button,
+.Event-reminder .max-width .cont select::file-selector-button,
+.calendar .max-width .cont input::file-selector-button,
+.calendar .max-width .cont select::file-selector-button,
+.Link-job-titles-to-groups .max-width .cont input::file-selector-button,
+.Link-job-titles-to-groups .max-width .cont select::file-selector-button,
+.Add-a-unified-Quran .max-width .cont input::file-selector-button,
+.Add-a-unified-Quran .max-width .cont select::file-selector-button,
+.Add-curriculum .max-width .cont input::file-selector-button,
+.Add-curriculum .max-width .cont select::file-selector-button,
+.Add-the-recorded-Quran .max-width .cont input::file-selector-button,
+.Add-the-recorded-Quran .max-width .cont select::file-selector-button,
+.Adding-content .max-width .cont input::file-selector-button,
+.Adding-content .max-width .cont select::file-selector-button,
+.Content-modification .max-width .cont input::file-selector-button,
+.Content-modification .max-width .cont select::file-selector-button,
+.Add-administrative-structure-and-levels .max-width .cont input::file-selector-button,
+.Add-administrative-structure-and-levels .max-width .cont select::file-selector-button,
+.Amending-the-administrative-structure .max-width .cont input::file-selector-button,
+.Amending-the-administrative-structure .max-width .cont select::file-selector-button,
+.Add-a-domain-account .max-width .cont input::file-selector-button,
+.Add-a-domain-account .max-width .cont select::file-selector-button,
+.Add-an-email-account .max-width .cont input::file-selector-button,
+.Add-an-email-account .max-width .cont select::file-selector-button,
+.Create-additional-services .max-width .cont input::file-selector-button,
+.Create-additional-services .max-width .cont select::file-selector-button,
+.Create-packages-and-services .max-width .cont input::file-selector-button,
+.Create-packages-and-services .max-width .cont select::file-selector-button,
+.Add-an-electronic-payment-gateway .max-width .cont input::file-selector-button,
+.Add-an-electronic-payment-gateway .max-width .cont select::file-selector-button,
+.Register-a-new-association .max-width .cont input::file-selector-button,
+.Register-a-new-association .max-width .cont select::file-selector-button {
+  display: none;
+}
 .free-and-occupied-days .max-width > .text,
 .Add-specific-groups .max-width > .text,
 .Add-an-academic-year .max-width > .text,
