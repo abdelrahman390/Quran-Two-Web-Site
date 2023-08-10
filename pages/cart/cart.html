@@ -172,23 +172,17 @@
             <h2>جميع الحقوق محفوظه 2023 - 1444</h2>
         </footer>
 
-        <script
-            class="main"
-            data-location="../../"
-            src="../../assets/javascript/main.js"
-        ></script>
+        <script src="../../assets/javascript/nav.js"></script>
+        <script src="../../assets/javascript/message.js"></script>
+        <script src="../../assets/javascript/cart/cart.js"></script>
         <script>
             function FixWhiteSpace() {
                 let errorFixFile = document.createElement("script");
-                let jsFile =
-                    document.querySelector("script.main").dataset.location;
 
-                if (jsFile !== undefined) {
-                    errorFixFile.src = `../../assets/javascript/whiteSpaceErrorFix.js`;
-                    setTimeout(function () {
-                        document.head.appendChild(errorFixFile);
-                    }, 1000);
-                }
+                errorFixFile.src = `../../assets/javascript/whiteSpaceErrorFix.js`;
+                setTimeout(function () {
+                    document.head.appendChild(errorFixFile);
+                }, 1000);
             }
             FixWhiteSpace();
         </script>
