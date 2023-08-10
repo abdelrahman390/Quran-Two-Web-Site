@@ -4529,7 +4529,7 @@ header .icons .cart li .itemsInCart {
   font-size: 17px;
   font-weight: 700;
 }
-.createAccount .max-width .container .right > a {
+.createAccount .max-width .container .right > .button {
   font-size: 20px;
   color: white;
   width: 50%;
