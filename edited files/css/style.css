@@ -1,0 +1,1695 @@
+/*############################# (systemsNestedPages) page Start ###########################*/
+/*######################### all pages that located in side nested files #################################*/
+.free-and-occupied-days .max-width,
+.Add-specific-groups .max-width,
+.Add-an-academic-year .max-width,
+.Event-reminder .max-width,
+.calendar .max-width,
+.Link-job-titles-to-groups .max-width,
+.Add-a-unified-Quran .max-width,
+.Add-curriculum .max-width,
+.Add-the-recorded-Quran .max-width,
+.Adding-content .max-width,
+.Content-modification .max-width,
+.Add-administrative-structure-and-levels .max-width,
+.Amending-the-administrative-structure .max-width,
+.Add-a-domain-account .max-width,
+.Add-an-email-account .max-width,
+.Create-additional-services .max-width,
+.Create-packages-and-services .max-width,
+.Add-an-electronic-payment-gateway .max-width,
+.Register-a-new-association .max-width {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  gap: 20px;
+  /*Media query ##########################################################################################################*/
+}
+.free-and-occupied-days .max-width .title,
+.Add-specific-groups .max-width .title,
+.Add-an-academic-year .max-width .title,
+.Event-reminder .max-width .title,
+.calendar .max-width .title,
+.Link-job-titles-to-groups .max-width .title,
+.Add-a-unified-Quran .max-width .title,
+.Add-curriculum .max-width .title,
+.Add-the-recorded-Quran .max-width .title,
+.Adding-content .max-width .title,
+.Content-modification .max-width .title,
+.Add-administrative-structure-and-levels .max-width .title,
+.Amending-the-administrative-structure .max-width .title,
+.Add-a-domain-account .max-width .title,
+.Add-an-email-account .max-width .title,
+.Create-additional-services .max-width .title,
+.Create-packages-and-services .max-width .title,
+.Add-an-electronic-payment-gateway .max-width .title,
+.Register-a-new-association .max-width .title {
+  margin: 30px 0;
+  font-size: 31px;
+  color: var(--title-color) !important;
+  text-align: center;
+}
+.free-and-occupied-days .max-width .links-cont,
+.Add-specific-groups .max-width .links-cont,
+.Add-an-academic-year .max-width .links-cont,
+.Event-reminder .max-width .links-cont,
+.calendar .max-width .links-cont,
+.Link-job-titles-to-groups .max-width .links-cont,
+.Add-a-unified-Quran .max-width .links-cont,
+.Add-curriculum .max-width .links-cont,
+.Add-the-recorded-Quran .max-width .links-cont,
+.Adding-content .max-width .links-cont,
+.Content-modification .max-width .links-cont,
+.Add-administrative-structure-and-levels .max-width .links-cont,
+.Amending-the-administrative-structure .max-width .links-cont,
+.Add-a-domain-account .max-width .links-cont,
+.Add-an-email-account .max-width .links-cont,
+.Create-additional-services .max-width .links-cont,
+.Create-packages-and-services .max-width .links-cont,
+.Add-an-electronic-payment-gateway .max-width .links-cont,
+.Register-a-new-association .max-width .links-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 15px;
+}
+.free-and-occupied-days .max-width .links-cont a,
+.Add-specific-groups .max-width .links-cont a,
+.Add-an-academic-year .max-width .links-cont a,
+.Event-reminder .max-width .links-cont a,
+.calendar .max-width .links-cont a,
+.Link-job-titles-to-groups .max-width .links-cont a,
+.Add-a-unified-Quran .max-width .links-cont a,
+.Add-curriculum .max-width .links-cont a,
+.Add-the-recorded-Quran .max-width .links-cont a,
+.Adding-content .max-width .links-cont a,
+.Content-modification .max-width .links-cont a,
+.Add-administrative-structure-and-levels .max-width .links-cont a,
+.Amending-the-administrative-structure .max-width .links-cont a,
+.Add-a-domain-account .max-width .links-cont a,
+.Add-an-email-account .max-width .links-cont a,
+.Create-additional-services .max-width .links-cont a,
+.Create-packages-and-services .max-width .links-cont a,
+.Add-an-electronic-payment-gateway .max-width .links-cont a,
+.Register-a-new-association .max-width .links-cont a {
+  color: var(--primary-color);
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-text-decoration: revert;
+          text-decoration: revert;
+}
+.free-and-occupied-days .max-width .links-cont h4:first-child a,
+.Add-specific-groups .max-width .links-cont h4:first-child a,
+.Add-an-academic-year .max-width .links-cont h4:first-child a,
+.Event-reminder .max-width .links-cont h4:first-child a,
+.calendar .max-width .links-cont h4:first-child a,
+.Link-job-titles-to-groups .max-width .links-cont h4:first-child a,
+.Add-a-unified-Quran .max-width .links-cont h4:first-child a,
+.Add-curriculum .max-width .links-cont h4:first-child a,
+.Add-the-recorded-Quran .max-width .links-cont h4:first-child a,
+.Adding-content .max-width .links-cont h4:first-child a,
+.Content-modification .max-width .links-cont h4:first-child a,
+.Add-administrative-structure-and-levels .max-width .links-cont h4:first-child a,
+.Amending-the-administrative-structure .max-width .links-cont h4:first-child a,
+.Add-a-domain-account .max-width .links-cont h4:first-child a,
+.Add-an-email-account .max-width .links-cont h4:first-child a,
+.Create-additional-services .max-width .links-cont h4:first-child a,
+.Create-packages-and-services .max-width .links-cont h4:first-child a,
+.Add-an-electronic-payment-gateway .max-width .links-cont h4:first-child a,
+.Register-a-new-association .max-width .links-cont h4:first-child a {
+  pointer-events: none;
+  text-decoration: none;
+}
+.free-and-occupied-days .max-width .links-cont span,
+.Add-specific-groups .max-width .links-cont span,
+.Add-an-academic-year .max-width .links-cont span,
+.Event-reminder .max-width .links-cont span,
+.calendar .max-width .links-cont span,
+.Link-job-titles-to-groups .max-width .links-cont span,
+.Add-a-unified-Quran .max-width .links-cont span,
+.Add-curriculum .max-width .links-cont span,
+.Add-the-recorded-Quran .max-width .links-cont span,
+.Adding-content .max-width .links-cont span,
+.Content-modification .max-width .links-cont span,
+.Add-administrative-structure-and-levels .max-width .links-cont span,
+.Amending-the-administrative-structure .max-width .links-cont span,
+.Add-a-domain-account .max-width .links-cont span,
+.Add-an-email-account .max-width .links-cont span,
+.Create-additional-services .max-width .links-cont span,
+.Create-packages-and-services .max-width .links-cont span,
+.Add-an-electronic-payment-gateway .max-width .links-cont span,
+.Register-a-new-association .max-width .links-cont span {
+  font-variation-settings: "FILL" 1, "wght" 1000;
+  color: var(--primary-color);
+  font-size: 45px;
+}
+@media screen and (max-width: 600px) {
+  .free-and-occupied-days .max-width .links-cont h4,
+  .Add-specific-groups .max-width .links-cont h4,
+  .Add-an-academic-year .max-width .links-cont h4,
+  .Event-reminder .max-width .links-cont h4,
+  .calendar .max-width .links-cont h4,
+  .Link-job-titles-to-groups .max-width .links-cont h4,
+  .Add-a-unified-Quran .max-width .links-cont h4,
+  .Add-curriculum .max-width .links-cont h4,
+  .Add-the-recorded-Quran .max-width .links-cont h4,
+  .Adding-content .max-width .links-cont h4,
+  .Content-modification .max-width .links-cont h4,
+  .Add-administrative-structure-and-levels .max-width .links-cont h4,
+  .Amending-the-administrative-structure .max-width .links-cont h4,
+  .Add-a-domain-account .max-width .links-cont h4,
+  .Add-an-email-account .max-width .links-cont h4,
+  .Create-additional-services .max-width .links-cont h4,
+  .Create-packages-and-services .max-width .links-cont h4,
+  .Add-an-electronic-payment-gateway .max-width .links-cont h4,
+  .Register-a-new-association .max-width .links-cont h4 {
+    text-align: center;
+  }
+}
+.free-and-occupied-days .max-width .cont,
+.Add-specific-groups .max-width .cont,
+.Add-an-academic-year .max-width .cont,
+.Event-reminder .max-width .cont,
+.calendar .max-width .cont,
+.Link-job-titles-to-groups .max-width .cont,
+.Add-a-unified-Quran .max-width .cont,
+.Add-curriculum .max-width .cont,
+.Add-the-recorded-Quran .max-width .cont,
+.Adding-content .max-width .cont,
+.Content-modification .max-width .cont,
+.Add-administrative-structure-and-levels .max-width .cont,
+.Amending-the-administrative-structure .max-width .cont,
+.Add-a-domain-account .max-width .cont,
+.Add-an-email-account .max-width .cont,
+.Create-additional-services .max-width .cont,
+.Create-packages-and-services .max-width .cont,
+.Add-an-electronic-payment-gateway .max-width .cont,
+.Register-a-new-association .max-width .cont {
+  min-width: 275px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 47%;
+          flex: 1 0 47%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media (max-width: 959px) {
+  .free-and-occupied-days .max-width .cont,
+  .Add-specific-groups .max-width .cont,
+  .Add-an-academic-year .max-width .cont,
+  .Event-reminder .max-width .cont,
+  .calendar .max-width .cont,
+  .Link-job-titles-to-groups .max-width .cont,
+  .Add-a-unified-Quran .max-width .cont,
+  .Add-curriculum .max-width .cont,
+  .Add-the-recorded-Quran .max-width .cont,
+  .Adding-content .max-width .cont,
+  .Content-modification .max-width .cont,
+  .Add-administrative-structure-and-levels .max-width .cont,
+  .Amending-the-administrative-structure .max-width .cont,
+  .Add-a-domain-account .max-width .cont,
+  .Add-an-email-account .max-width .cont,
+  .Create-additional-services .max-width .cont,
+  .Create-packages-and-services .max-width .cont,
+  .Add-an-electronic-payment-gateway .max-width .cont,
+  .Register-a-new-association .max-width .cont {
+    max-width: unset !important;
+  }
+}
+.free-and-occupied-days .max-width .cont .text,
+.Add-specific-groups .max-width .cont .text,
+.Add-an-academic-year .max-width .cont .text,
+.Event-reminder .max-width .cont .text,
+.calendar .max-width .cont .text,
+.Link-job-titles-to-groups .max-width .cont .text,
+.Add-a-unified-Quran .max-width .cont .text,
+.Add-curriculum .max-width .cont .text,
+.Add-the-recorded-Quran .max-width .cont .text,
+.Adding-content .max-width .cont .text,
+.Content-modification .max-width .cont .text,
+.Add-administrative-structure-and-levels .max-width .cont .text,
+.Amending-the-administrative-structure .max-width .cont .text,
+.Add-a-domain-account .max-width .cont .text,
+.Add-an-email-account .max-width .cont .text,
+.Create-additional-services .max-width .cont .text,
+.Create-packages-and-services .max-width .cont .text,
+.Add-an-electronic-payment-gateway .max-width .cont .text,
+.Register-a-new-association .max-width .cont .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: var(--primary-color);
+  margin-bottom: 30px;
+}
+.free-and-occupied-days .max-width .cont .text h2,
+.Add-specific-groups .max-width .cont .text h2,
+.Add-an-academic-year .max-width .cont .text h2,
+.Event-reminder .max-width .cont .text h2,
+.calendar .max-width .cont .text h2,
+.Link-job-titles-to-groups .max-width .cont .text h2,
+.Add-a-unified-Quran .max-width .cont .text h2,
+.Add-curriculum .max-width .cont .text h2,
+.Add-the-recorded-Quran .max-width .cont .text h2,
+.Adding-content .max-width .cont .text h2,
+.Content-modification .max-width .cont .text h2,
+.Add-administrative-structure-and-levels .max-width .cont .text h2,
+.Amending-the-administrative-structure .max-width .cont .text h2,
+.Add-a-domain-account .max-width .cont .text h2,
+.Add-an-email-account .max-width .cont .text h2,
+.Create-additional-services .max-width .cont .text h2,
+.Create-packages-and-services .max-width .cont .text h2,
+.Add-an-electronic-payment-gateway .max-width .cont .text h2,
+.Register-a-new-association .max-width .cont .text h2 {
+  font-weight: 500;
+  color: var(--primary-color) !important;
+}
+.free-and-occupied-days .max-width .cont .text h1,
+.Add-specific-groups .max-width .cont .text h1,
+.Add-an-academic-year .max-width .cont .text h1,
+.Event-reminder .max-width .cont .text h1,
+.calendar .max-width .cont .text h1,
+.Link-job-titles-to-groups .max-width .cont .text h1,
+.Add-a-unified-Quran .max-width .cont .text h1,
+.Add-curriculum .max-width .cont .text h1,
+.Add-the-recorded-Quran .max-width .cont .text h1,
+.Adding-content .max-width .cont .text h1,
+.Content-modification .max-width .cont .text h1,
+.Add-administrative-structure-and-levels .max-width .cont .text h1,
+.Amending-the-administrative-structure .max-width .cont .text h1,
+.Add-a-domain-account .max-width .cont .text h1,
+.Add-an-email-account .max-width .cont .text h1,
+.Create-additional-services .max-width .cont .text h1,
+.Create-packages-and-services .max-width .cont .text h1,
+.Add-an-electronic-payment-gateway .max-width .cont .text h1,
+.Register-a-new-association .max-width .cont .text h1 {
+  color: var(--primary-color) !important;
+}
+.free-and-occupied-days .max-width .cont h3,
+.Add-specific-groups .max-width .cont h3,
+.Add-an-academic-year .max-width .cont h3,
+.Event-reminder .max-width .cont h3,
+.calendar .max-width .cont h3,
+.Link-job-titles-to-groups .max-width .cont h3,
+.Add-a-unified-Quran .max-width .cont h3,
+.Add-curriculum .max-width .cont h3,
+.Add-the-recorded-Quran .max-width .cont h3,
+.Adding-content .max-width .cont h3,
+.Content-modification .max-width .cont h3,
+.Add-administrative-structure-and-levels .max-width .cont h3,
+.Amending-the-administrative-structure .max-width .cont h3,
+.Add-a-domain-account .max-width .cont h3,
+.Add-an-email-account .max-width .cont h3,
+.Create-additional-services .max-width .cont h3,
+.Create-packages-and-services .max-width .cont h3,
+.Add-an-electronic-payment-gateway .max-width .cont h3,
+.Register-a-new-association .max-width .cont h3 {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.free-and-occupied-days .max-width .cont h3 span,
+.Add-specific-groups .max-width .cont h3 span,
+.Add-an-academic-year .max-width .cont h3 span,
+.Event-reminder .max-width .cont h3 span,
+.calendar .max-width .cont h3 span,
+.Link-job-titles-to-groups .max-width .cont h3 span,
+.Add-a-unified-Quran .max-width .cont h3 span,
+.Add-curriculum .max-width .cont h3 span,
+.Add-the-recorded-Quran .max-width .cont h3 span,
+.Adding-content .max-width .cont h3 span,
+.Content-modification .max-width .cont h3 span,
+.Add-administrative-structure-and-levels .max-width .cont h3 span,
+.Amending-the-administrative-structure .max-width .cont h3 span,
+.Add-a-domain-account .max-width .cont h3 span,
+.Add-an-email-account .max-width .cont h3 span,
+.Create-additional-services .max-width .cont h3 span,
+.Create-packages-and-services .max-width .cont h3 span,
+.Add-an-electronic-payment-gateway .max-width .cont h3 span,
+.Register-a-new-association .max-width .cont h3 span {
+  color: red;
+}
+.free-and-occupied-days .max-width .cont i,
+.Add-specific-groups .max-width .cont i,
+.Add-an-academic-year .max-width .cont i,
+.Event-reminder .max-width .cont i,
+.calendar .max-width .cont i,
+.Link-job-titles-to-groups .max-width .cont i,
+.Add-a-unified-Quran .max-width .cont i,
+.Add-curriculum .max-width .cont i,
+.Add-the-recorded-Quran .max-width .cont i,
+.Adding-content .max-width .cont i,
+.Content-modification .max-width .cont i,
+.Add-administrative-structure-and-levels .max-width .cont i,
+.Amending-the-administrative-structure .max-width .cont i,
+.Add-a-domain-account .max-width .cont i,
+.Add-an-email-account .max-width .cont i,
+.Create-additional-services .max-width .cont i,
+.Create-packages-and-services .max-width .cont i,
+.Add-an-electronic-payment-gateway .max-width .cont i,
+.Register-a-new-association .max-width .cont i {
+  position: absolute;
+  bottom: 26px;
+  width: 100%;
+  text-align: end;
+  height: 54px;
+  background-color: white;
+  padding-left: 10px;
+  padding-top: 9px;
+  border-radius: 15px;
+}
+.free-and-occupied-days .max-width .cont i img,
+.Add-specific-groups .max-width .cont i img,
+.Add-an-academic-year .max-width .cont i img,
+.Event-reminder .max-width .cont i img,
+.calendar .max-width .cont i img,
+.Link-job-titles-to-groups .max-width .cont i img,
+.Add-a-unified-Quran .max-width .cont i img,
+.Add-curriculum .max-width .cont i img,
+.Add-the-recorded-Quran .max-width .cont i img,
+.Adding-content .max-width .cont i img,
+.Content-modification .max-width .cont i img,
+.Add-administrative-structure-and-levels .max-width .cont i img,
+.Amending-the-administrative-structure .max-width .cont i img,
+.Add-a-domain-account .max-width .cont i img,
+.Add-an-email-account .max-width .cont i img,
+.Create-additional-services .max-width .cont i img,
+.Create-packages-and-services .max-width .cont i img,
+.Add-an-electronic-payment-gateway .max-width .cont i img,
+.Register-a-new-association .max-width .cont i img {
+  height: 40px;
+  width: unset;
+  min-width: unset;
+}
+.free-and-occupied-days .max-width .cont .rightIcon,
+.Add-specific-groups .max-width .cont .rightIcon,
+.Add-an-academic-year .max-width .cont .rightIcon,
+.Event-reminder .max-width .cont .rightIcon,
+.calendar .max-width .cont .rightIcon,
+.Link-job-titles-to-groups .max-width .cont .rightIcon,
+.Add-a-unified-Quran .max-width .cont .rightIcon,
+.Add-curriculum .max-width .cont .rightIcon,
+.Add-the-recorded-Quran .max-width .cont .rightIcon,
+.Adding-content .max-width .cont .rightIcon,
+.Content-modification .max-width .cont .rightIcon,
+.Add-administrative-structure-and-levels .max-width .cont .rightIcon,
+.Amending-the-administrative-structure .max-width .cont .rightIcon,
+.Add-a-domain-account .max-width .cont .rightIcon,
+.Add-an-email-account .max-width .cont .rightIcon,
+.Create-additional-services .max-width .cont .rightIcon,
+.Create-packages-and-services .max-width .cont .rightIcon,
+.Add-an-electronic-payment-gateway .max-width .cont .rightIcon,
+.Register-a-new-association .max-width .cont .rightIcon {
+  position: absolute;
+  z-index: 2;
+  left: 1px !important;
+  bottom: 25px !important;
+  background-color: var(--primary-color);
+  border-radius: 15px;
+  height: 55px;
+  width: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.free-and-occupied-days .max-width .cont .rightIcon img,
+.Add-specific-groups .max-width .cont .rightIcon img,
+.Add-an-academic-year .max-width .cont .rightIcon img,
+.Event-reminder .max-width .cont .rightIcon img,
+.calendar .max-width .cont .rightIcon img,
+.Link-job-titles-to-groups .max-width .cont .rightIcon img,
+.Add-a-unified-Quran .max-width .cont .rightIcon img,
+.Add-curriculum .max-width .cont .rightIcon img,
+.Add-the-recorded-Quran .max-width .cont .rightIcon img,
+.Adding-content .max-width .cont .rightIcon img,
+.Content-modification .max-width .cont .rightIcon img,
+.Add-administrative-structure-and-levels .max-width .cont .rightIcon img,
+.Amending-the-administrative-structure .max-width .cont .rightIcon img,
+.Add-a-domain-account .max-width .cont .rightIcon img,
+.Add-an-email-account .max-width .cont .rightIcon img,
+.Create-additional-services .max-width .cont .rightIcon img,
+.Create-packages-and-services .max-width .cont .rightIcon img,
+.Add-an-electronic-payment-gateway .max-width .cont .rightIcon img,
+.Register-a-new-association .max-width .cont .rightIcon img {
+  height: 30px !important;
+}
+.free-and-occupied-days .max-width .cont input,
+.free-and-occupied-days .max-width .cont select,
+.Add-specific-groups .max-width .cont input,
+.Add-specific-groups .max-width .cont select,
+.Add-an-academic-year .max-width .cont input,
+.Add-an-academic-year .max-width .cont select,
+.Event-reminder .max-width .cont input,
+.Event-reminder .max-width .cont select,
+.calendar .max-width .cont input,
+.calendar .max-width .cont select,
+.Link-job-titles-to-groups .max-width .cont input,
+.Link-job-titles-to-groups .max-width .cont select,
+.Add-a-unified-Quran .max-width .cont input,
+.Add-a-unified-Quran .max-width .cont select,
+.Add-curriculum .max-width .cont input,
+.Add-curriculum .max-width .cont select,
+.Add-the-recorded-Quran .max-width .cont input,
+.Add-the-recorded-Quran .max-width .cont select,
+.Adding-content .max-width .cont input,
+.Adding-content .max-width .cont select,
+.Content-modification .max-width .cont input,
+.Content-modification .max-width .cont select,
+.Add-administrative-structure-and-levels .max-width .cont input,
+.Add-administrative-structure-and-levels .max-width .cont select,
+.Amending-the-administrative-structure .max-width .cont input,
+.Amending-the-administrative-structure .max-width .cont select,
+.Add-a-domain-account .max-width .cont input,
+.Add-a-domain-account .max-width .cont select,
+.Add-an-email-account .max-width .cont input,
+.Add-an-email-account .max-width .cont select,
+.Create-additional-services .max-width .cont input,
+.Create-additional-services .max-width .cont select,
+.Create-packages-and-services .max-width .cont input,
+.Create-packages-and-services .max-width .cont select,
+.Add-an-electronic-payment-gateway .max-width .cont input,
+.Add-an-electronic-payment-gateway .max-width .cont select,
+.Register-a-new-association .max-width .cont input,
+.Register-a-new-association .max-width .cont select {
+  border: 1px solid var(--primary-color);
+  text-align: start;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  position: relative;
+  width: 100%;
+  height: 55px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  font-size: 17px;
+  opacity: 0.5;
+  font-family: cairo;
+  background-color: white;
+  opacity: 1;
+  background-color: transparent;
+  z-index: 3;
+  color: rgba(128, 128, 128, 0.8196078431);
+  font-weight: 600;
+}
+.free-and-occupied-days .max-width .cont input:focus-visible,
+.free-and-occupied-days .max-width .cont select:focus-visible,
+.Add-specific-groups .max-width .cont input:focus-visible,
+.Add-specific-groups .max-width .cont select:focus-visible,
+.Add-an-academic-year .max-width .cont input:focus-visible,
+.Add-an-academic-year .max-width .cont select:focus-visible,
+.Event-reminder .max-width .cont input:focus-visible,
+.Event-reminder .max-width .cont select:focus-visible,
+.calendar .max-width .cont input:focus-visible,
+.calendar .max-width .cont select:focus-visible,
+.Link-job-titles-to-groups .max-width .cont input:focus-visible,
+.Link-job-titles-to-groups .max-width .cont select:focus-visible,
+.Add-a-unified-Quran .max-width .cont input:focus-visible,
+.Add-a-unified-Quran .max-width .cont select:focus-visible,
+.Add-curriculum .max-width .cont input:focus-visible,
+.Add-curriculum .max-width .cont select:focus-visible,
+.Add-the-recorded-Quran .max-width .cont input:focus-visible,
+.Add-the-recorded-Quran .max-width .cont select:focus-visible,
+.Adding-content .max-width .cont input:focus-visible,
+.Adding-content .max-width .cont select:focus-visible,
+.Content-modification .max-width .cont input:focus-visible,
+.Content-modification .max-width .cont select:focus-visible,
+.Add-administrative-structure-and-levels .max-width .cont input:focus-visible,
+.Add-administrative-structure-and-levels .max-width .cont select:focus-visible,
+.Amending-the-administrative-structure .max-width .cont input:focus-visible,
+.Amending-the-administrative-structure .max-width .cont select:focus-visible,
+.Add-a-domain-account .max-width .cont input:focus-visible,
+.Add-a-domain-account .max-width .cont select:focus-visible,
+.Add-an-email-account .max-width .cont input:focus-visible,
+.Add-an-email-account .max-width .cont select:focus-visible,
+.Create-additional-services .max-width .cont input:focus-visible,
+.Create-additional-services .max-width .cont select:focus-visible,
+.Create-packages-and-services .max-width .cont input:focus-visible,
+.Create-packages-and-services .max-width .cont select:focus-visible,
+.Add-an-electronic-payment-gateway .max-width .cont input:focus-visible,
+.Add-an-electronic-payment-gateway .max-width .cont select:focus-visible,
+.Register-a-new-association .max-width .cont input:focus-visible,
+.Register-a-new-association .max-width .cont select:focus-visible {
+  border: 2px solid var(--gray-color);
+  outline: none;
+}
+.free-and-occupied-days .max-width .cont input::-webkit-input-placeholder,
+.free-and-occupied-days .max-width .cont select::-webkit-input-placeholder,
+.Add-specific-groups .max-width .cont input::-webkit-input-placeholder,
+.Add-specific-groups .max-width .cont select::-webkit-input-placeholder,
+.Add-an-academic-year .max-width .cont input::-webkit-input-placeholder,
+.Add-an-academic-year .max-width .cont select::-webkit-input-placeholder,
+.Event-reminder .max-width .cont input::-webkit-input-placeholder,
+.Event-reminder .max-width .cont select::-webkit-input-placeholder,
+.calendar .max-width .cont input::-webkit-input-placeholder,
+.calendar .max-width .cont select::-webkit-input-placeholder,
+.Link-job-titles-to-groups .max-width .cont input::-webkit-input-placeholder,
+.Link-job-titles-to-groups .max-width .cont select::-webkit-input-placeholder,
+.Add-a-unified-Quran .max-width .cont input::-webkit-input-placeholder,
+.Add-a-unified-Quran .max-width .cont select::-webkit-input-placeholder,
+.Add-curriculum .max-width .cont input::-webkit-input-placeholder,
+.Add-curriculum .max-width .cont select::-webkit-input-placeholder,
+.Add-the-recorded-Quran .max-width .cont input::-webkit-input-placeholder,
+.Add-the-recorded-Quran .max-width .cont select::-webkit-input-placeholder,
+.Adding-content .max-width .cont input::-webkit-input-placeholder,
+.Adding-content .max-width .cont select::-webkit-input-placeholder,
+.Content-modification .max-width .cont input::-webkit-input-placeholder,
+.Content-modification .max-width .cont select::-webkit-input-placeholder,
+.Add-administrative-structure-and-levels .max-width .cont input::-webkit-input-placeholder,
+.Add-administrative-structure-and-levels .max-width .cont select::-webkit-input-placeholder,
+.Amending-the-administrative-structure .max-width .cont input::-webkit-input-placeholder,
+.Amending-the-administrative-structure .max-width .cont select::-webkit-input-placeholder,
+.Add-a-domain-account .max-width .cont input::-webkit-input-placeholder,
+.Add-a-domain-account .max-width .cont select::-webkit-input-placeholder,
+.Add-an-email-account .max-width .cont input::-webkit-input-placeholder,
+.Add-an-email-account .max-width .cont select::-webkit-input-placeholder,
+.Create-additional-services .max-width .cont input::-webkit-input-placeholder,
+.Create-additional-services .max-width .cont select::-webkit-input-placeholder,
+.Create-packages-and-services .max-width .cont input::-webkit-input-placeholder,
+.Create-packages-and-services .max-width .cont select::-webkit-input-placeholder,
+.Add-an-electronic-payment-gateway .max-width .cont input::-webkit-input-placeholder,
+.Add-an-electronic-payment-gateway .max-width .cont select::-webkit-input-placeholder,
+.Register-a-new-association .max-width .cont input::-webkit-input-placeholder,
+.Register-a-new-association .max-width .cont select::-webkit-input-placeholder {
+  opacity: 0.6;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+  font-size: 17px;
+  font-weight: 700;
+}
+.free-and-occupied-days .max-width .cont input[type=date],
+.free-and-occupied-days .max-width .cont select[type=date],
+.Add-specific-groups .max-width .cont input[type=date],
+.Add-specific-groups .max-width .cont select[type=date],
+.Add-an-academic-year .max-width .cont input[type=date],
+.Add-an-academic-year .max-width .cont select[type=date],
+.Event-reminder .max-width .cont input[type=date],
+.Event-reminder .max-width .cont select[type=date],
+.calendar .max-width .cont input[type=date],
+.calendar .max-width .cont select[type=date],
+.Link-job-titles-to-groups .max-width .cont input[type=date],
+.Link-job-titles-to-groups .max-width .cont select[type=date],
+.Add-a-unified-Quran .max-width .cont input[type=date],
+.Add-a-unified-Quran .max-width .cont select[type=date],
+.Add-curriculum .max-width .cont input[type=date],
+.Add-curriculum .max-width .cont select[type=date],
+.Add-the-recorded-Quran .max-width .cont input[type=date],
+.Add-the-recorded-Quran .max-width .cont select[type=date],
+.Adding-content .max-width .cont input[type=date],
+.Adding-content .max-width .cont select[type=date],
+.Content-modification .max-width .cont input[type=date],
+.Content-modification .max-width .cont select[type=date],
+.Add-administrative-structure-and-levels .max-width .cont input[type=date],
+.Add-administrative-structure-and-levels .max-width .cont select[type=date],
+.Amending-the-administrative-structure .max-width .cont input[type=date],
+.Amending-the-administrative-structure .max-width .cont select[type=date],
+.Add-a-domain-account .max-width .cont input[type=date],
+.Add-a-domain-account .max-width .cont select[type=date],
+.Add-an-email-account .max-width .cont input[type=date],
+.Add-an-email-account .max-width .cont select[type=date],
+.Create-additional-services .max-width .cont input[type=date],
+.Create-additional-services .max-width .cont select[type=date],
+.Create-packages-and-services .max-width .cont input[type=date],
+.Create-packages-and-services .max-width .cont select[type=date],
+.Add-an-electronic-payment-gateway .max-width .cont input[type=date],
+.Add-an-electronic-payment-gateway .max-width .cont select[type=date],
+.Register-a-new-association .max-width .cont input[type=date],
+.Register-a-new-association .max-width .cont select[type=date] {
+  text-align: end !important;
+}
+.free-and-occupied-days .max-width .cont input[type=date] + i img,
+.free-and-occupied-days .max-width .cont select[type=date] + i img,
+.Add-specific-groups .max-width .cont input[type=date] + i img,
+.Add-specific-groups .max-width .cont select[type=date] + i img,
+.Add-an-academic-year .max-width .cont input[type=date] + i img,
+.Add-an-academic-year .max-width .cont select[type=date] + i img,
+.Event-reminder .max-width .cont input[type=date] + i img,
+.Event-reminder .max-width .cont select[type=date] + i img,
+.calendar .max-width .cont input[type=date] + i img,
+.calendar .max-width .cont select[type=date] + i img,
+.Link-job-titles-to-groups .max-width .cont input[type=date] + i img,
+.Link-job-titles-to-groups .max-width .cont select[type=date] + i img,
+.Add-a-unified-Quran .max-width .cont input[type=date] + i img,
+.Add-a-unified-Quran .max-width .cont select[type=date] + i img,
+.Add-curriculum .max-width .cont input[type=date] + i img,
+.Add-curriculum .max-width .cont select[type=date] + i img,
+.Add-the-recorded-Quran .max-width .cont input[type=date] + i img,
+.Add-the-recorded-Quran .max-width .cont select[type=date] + i img,
+.Adding-content .max-width .cont input[type=date] + i img,
+.Adding-content .max-width .cont select[type=date] + i img,
+.Content-modification .max-width .cont input[type=date] + i img,
+.Content-modification .max-width .cont select[type=date] + i img,
+.Add-administrative-structure-and-levels .max-width .cont input[type=date] + i img,
+.Add-administrative-structure-and-levels .max-width .cont select[type=date] + i img,
+.Amending-the-administrative-structure .max-width .cont input[type=date] + i img,
+.Amending-the-administrative-structure .max-width .cont select[type=date] + i img,
+.Add-a-domain-account .max-width .cont input[type=date] + i img,
+.Add-a-domain-account .max-width .cont select[type=date] + i img,
+.Add-an-email-account .max-width .cont input[type=date] + i img,
+.Add-an-email-account .max-width .cont select[type=date] + i img,
+.Create-additional-services .max-width .cont input[type=date] + i img,
+.Create-additional-services .max-width .cont select[type=date] + i img,
+.Create-packages-and-services .max-width .cont input[type=date] + i img,
+.Create-packages-and-services .max-width .cont select[type=date] + i img,
+.Add-an-electronic-payment-gateway .max-width .cont input[type=date] + i img,
+.Add-an-electronic-payment-gateway .max-width .cont select[type=date] + i img,
+.Register-a-new-association .max-width .cont input[type=date] + i img,
+.Register-a-new-association .max-width .cont select[type=date] + i img {
+  width: 30px !important;
+  height: 36px !important;
+}
+.free-and-occupied-days .max-width .cont input[type=date]::-webkit-calendar-picker-indicator,
+.free-and-occupied-days .max-width .cont select[type=date]::-webkit-calendar-picker-indicator,
+.Add-specific-groups .max-width .cont input[type=date]::-webkit-calendar-picker-indicator,
+.Add-specific-groups .max-width .cont select[type=date]::-webkit-calendar-picker-indicator,
+.Add-an-academic-year .max-width .cont input[type=date]::-webkit-calendar-picker-indicator,
+.Add-an-academic-year .max-width .cont select[type=date]::-webkit-calendar-picker-indicator,
+.Event-reminder .max-width .cont input[type=date]::-webkit-calendar-picker-indicator,
+.Event-reminder .max-width .cont select[type=date]::-webkit-calendar-picker-indicator,
+.calendar .max-width .cont input[type=date]::-webkit-calendar-picker-indicator,
+.calendar .max-width .cont select[type=date]::-webkit-calendar-picker-indicator,
+.Link-job-titles-to-groups .max-width .cont input[type=date]::-webkit-calendar-picker-indicator,
+.Link-job-titles-to-groups .max-width .cont select[type=date]::-webkit-calendar-picker-indicator,
+.Add-a-unified-Quran .max-width .cont input[type=date]::-webkit-calendar-picker-indicator,
+.Add-a-unified-Quran .max-width .cont select[type=date]::-webkit-calendar-picker-indicator,
+.Add-curriculum .max-width .cont input[type=date]::-webkit-calendar-picker-indicator,
+.Add-curriculum .max-width .cont select[type=date]::-webkit-calendar-picker-indicator,
+.Add-the-recorded-Quran .max-width .cont input[type=date]::-webkit-calendar-picker-indicator,
+.Add-the-recorded-Quran .max-width .cont select[type=date]::-webkit-calendar-picker-indicator,
+.Adding-content .max-width .cont input[type=date]::-webkit-calendar-picker-indicator,
+.Adding-content .max-width .cont select[type=date]::-webkit-calendar-picker-indicator,
+.Content-modification .max-width .cont input[type=date]::-webkit-calendar-picker-indicator,
+.Content-modification .max-width .cont select[type=date]::-webkit-calendar-picker-indicator,
+.Add-administrative-structure-and-levels .max-width .cont input[type=date]::-webkit-calendar-picker-indicator,
+.Add-administrative-structure-and-levels .max-width .cont select[type=date]::-webkit-calendar-picker-indicator,
+.Amending-the-administrative-structure .max-width .cont input[type=date]::-webkit-calendar-picker-indicator,
+.Amending-the-administrative-structure .max-width .cont select[type=date]::-webkit-calendar-picker-indicator,
+.Add-a-domain-account .max-width .cont input[type=date]::-webkit-calendar-picker-indicator,
+.Add-a-domain-account .max-width .cont select[type=date]::-webkit-calendar-picker-indicator,
+.Add-an-email-account .max-width .cont input[type=date]::-webkit-calendar-picker-indicator,
+.Add-an-email-account .max-width .cont select[type=date]::-webkit-calendar-picker-indicator,
+.Create-additional-services .max-width .cont input[type=date]::-webkit-calendar-picker-indicator,
+.Create-additional-services .max-width .cont select[type=date]::-webkit-calendar-picker-indicator,
+.Create-packages-and-services .max-width .cont input[type=date]::-webkit-calendar-picker-indicator,
+.Create-packages-and-services .max-width .cont select[type=date]::-webkit-calendar-picker-indicator,
+.Add-an-electronic-payment-gateway .max-width .cont input[type=date]::-webkit-calendar-picker-indicator,
+.Add-an-electronic-payment-gateway .max-width .cont select[type=date]::-webkit-calendar-picker-indicator,
+.Register-a-new-association .max-width .cont input[type=date]::-webkit-calendar-picker-indicator,
+.Register-a-new-association .max-width .cont select[type=date]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  color: transparent;
+  background: transparent;
+}
+.free-and-occupied-days .max-width .cont input[type=number]::-webkit-outer-spin-button, .free-and-occupied-days .max-width .cont input[type=number]::-webkit-inner-spin-button,
+.free-and-occupied-days .max-width .cont select[type=number]::-webkit-outer-spin-button,
+.free-and-occupied-days .max-width .cont select[type=number]::-webkit-inner-spin-button,
+.Add-specific-groups .max-width .cont input[type=number]::-webkit-outer-spin-button,
+.Add-specific-groups .max-width .cont input[type=number]::-webkit-inner-spin-button,
+.Add-specific-groups .max-width .cont select[type=number]::-webkit-outer-spin-button,
+.Add-specific-groups .max-width .cont select[type=number]::-webkit-inner-spin-button,
+.Add-an-academic-year .max-width .cont input[type=number]::-webkit-outer-spin-button,
+.Add-an-academic-year .max-width .cont input[type=number]::-webkit-inner-spin-button,
+.Add-an-academic-year .max-width .cont select[type=number]::-webkit-outer-spin-button,
+.Add-an-academic-year .max-width .cont select[type=number]::-webkit-inner-spin-button,
+.Event-reminder .max-width .cont input[type=number]::-webkit-outer-spin-button,
+.Event-reminder .max-width .cont input[type=number]::-webkit-inner-spin-button,
+.Event-reminder .max-width .cont select[type=number]::-webkit-outer-spin-button,
+.Event-reminder .max-width .cont select[type=number]::-webkit-inner-spin-button,
+.calendar .max-width .cont input[type=number]::-webkit-outer-spin-button,
+.calendar .max-width .cont input[type=number]::-webkit-inner-spin-button,
+.calendar .max-width .cont select[type=number]::-webkit-outer-spin-button,
+.calendar .max-width .cont select[type=number]::-webkit-inner-spin-button,
+.Link-job-titles-to-groups .max-width .cont input[type=number]::-webkit-outer-spin-button,
+.Link-job-titles-to-groups .max-width .cont input[type=number]::-webkit-inner-spin-button,
+.Link-job-titles-to-groups .max-width .cont select[type=number]::-webkit-outer-spin-button,
+.Link-job-titles-to-groups .max-width .cont select[type=number]::-webkit-inner-spin-button,
+.Add-a-unified-Quran .max-width .cont input[type=number]::-webkit-outer-spin-button,
+.Add-a-unified-Quran .max-width .cont input[type=number]::-webkit-inner-spin-button,
+.Add-a-unified-Quran .max-width .cont select[type=number]::-webkit-outer-spin-button,
+.Add-a-unified-Quran .max-width .cont select[type=number]::-webkit-inner-spin-button,
+.Add-curriculum .max-width .cont input[type=number]::-webkit-outer-spin-button,
+.Add-curriculum .max-width .cont input[type=number]::-webkit-inner-spin-button,
+.Add-curriculum .max-width .cont select[type=number]::-webkit-outer-spin-button,
+.Add-curriculum .max-width .cont select[type=number]::-webkit-inner-spin-button,
+.Add-the-recorded-Quran .max-width .cont input[type=number]::-webkit-outer-spin-button,
+.Add-the-recorded-Quran .max-width .cont input[type=number]::-webkit-inner-spin-button,
+.Add-the-recorded-Quran .max-width .cont select[type=number]::-webkit-outer-spin-button,
+.Add-the-recorded-Quran .max-width .cont select[type=number]::-webkit-inner-spin-button,
+.Adding-content .max-width .cont input[type=number]::-webkit-outer-spin-button,
+.Adding-content .max-width .cont input[type=number]::-webkit-inner-spin-button,
+.Adding-content .max-width .cont select[type=number]::-webkit-outer-spin-button,
+.Adding-content .max-width .cont select[type=number]::-webkit-inner-spin-button,
+.Content-modification .max-width .cont input[type=number]::-webkit-outer-spin-button,
+.Content-modification .max-width .cont input[type=number]::-webkit-inner-spin-button,
+.Content-modification .max-width .cont select[type=number]::-webkit-outer-spin-button,
+.Content-modification .max-width .cont select[type=number]::-webkit-inner-spin-button,
+.Add-administrative-structure-and-levels .max-width .cont input[type=number]::-webkit-outer-spin-button,
+.Add-administrative-structure-and-levels .max-width .cont input[type=number]::-webkit-inner-spin-button,
+.Add-administrative-structure-and-levels .max-width .cont select[type=number]::-webkit-outer-spin-button,
+.Add-administrative-structure-and-levels .max-width .cont select[type=number]::-webkit-inner-spin-button,
+.Amending-the-administrative-structure .max-width .cont input[type=number]::-webkit-outer-spin-button,
+.Amending-the-administrative-structure .max-width .cont input[type=number]::-webkit-inner-spin-button,
+.Amending-the-administrative-structure .max-width .cont select[type=number]::-webkit-outer-spin-button,
+.Amending-the-administrative-structure .max-width .cont select[type=number]::-webkit-inner-spin-button,
+.Add-a-domain-account .max-width .cont input[type=number]::-webkit-outer-spin-button,
+.Add-a-domain-account .max-width .cont input[type=number]::-webkit-inner-spin-button,
+.Add-a-domain-account .max-width .cont select[type=number]::-webkit-outer-spin-button,
+.Add-a-domain-account .max-width .cont select[type=number]::-webkit-inner-spin-button,
+.Add-an-email-account .max-width .cont input[type=number]::-webkit-outer-spin-button,
+.Add-an-email-account .max-width .cont input[type=number]::-webkit-inner-spin-button,
+.Add-an-email-account .max-width .cont select[type=number]::-webkit-outer-spin-button,
+.Add-an-email-account .max-width .cont select[type=number]::-webkit-inner-spin-button,
+.Create-additional-services .max-width .cont input[type=number]::-webkit-outer-spin-button,
+.Create-additional-services .max-width .cont input[type=number]::-webkit-inner-spin-button,
+.Create-additional-services .max-width .cont select[type=number]::-webkit-outer-spin-button,
+.Create-additional-services .max-width .cont select[type=number]::-webkit-inner-spin-button,
+.Create-packages-and-services .max-width .cont input[type=number]::-webkit-outer-spin-button,
+.Create-packages-and-services .max-width .cont input[type=number]::-webkit-inner-spin-button,
+.Create-packages-and-services .max-width .cont select[type=number]::-webkit-outer-spin-button,
+.Create-packages-and-services .max-width .cont select[type=number]::-webkit-inner-spin-button,
+.Add-an-electronic-payment-gateway .max-width .cont input[type=number]::-webkit-outer-spin-button,
+.Add-an-electronic-payment-gateway .max-width .cont input[type=number]::-webkit-inner-spin-button,
+.Add-an-electronic-payment-gateway .max-width .cont select[type=number]::-webkit-outer-spin-button,
+.Add-an-electronic-payment-gateway .max-width .cont select[type=number]::-webkit-inner-spin-button,
+.Register-a-new-association .max-width .cont input[type=number]::-webkit-outer-spin-button,
+.Register-a-new-association .max-width .cont input[type=number]::-webkit-inner-spin-button,
+.Register-a-new-association .max-width .cont select[type=number]::-webkit-outer-spin-button,
+.Register-a-new-association .max-width .cont select[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.free-and-occupied-days .max-width .cont input::-webkit-file-upload-button, .free-and-occupied-days .max-width .cont select::-webkit-file-upload-button, .Add-specific-groups .max-width .cont input::-webkit-file-upload-button, .Add-specific-groups .max-width .cont select::-webkit-file-upload-button, .Add-an-academic-year .max-width .cont input::-webkit-file-upload-button, .Add-an-academic-year .max-width .cont select::-webkit-file-upload-button, .Event-reminder .max-width .cont input::-webkit-file-upload-button, .Event-reminder .max-width .cont select::-webkit-file-upload-button, .calendar .max-width .cont input::-webkit-file-upload-button, .calendar .max-width .cont select::-webkit-file-upload-button, .Link-job-titles-to-groups .max-width .cont input::-webkit-file-upload-button, .Link-job-titles-to-groups .max-width .cont select::-webkit-file-upload-button, .Add-a-unified-Quran .max-width .cont input::-webkit-file-upload-button, .Add-a-unified-Quran .max-width .cont select::-webkit-file-upload-button, .Add-curriculum .max-width .cont input::-webkit-file-upload-button, .Add-curriculum .max-width .cont select::-webkit-file-upload-button, .Add-the-recorded-Quran .max-width .cont input::-webkit-file-upload-button, .Add-the-recorded-Quran .max-width .cont select::-webkit-file-upload-button, .Adding-content .max-width .cont input::-webkit-file-upload-button, .Adding-content .max-width .cont select::-webkit-file-upload-button, .Content-modification .max-width .cont input::-webkit-file-upload-button, .Content-modification .max-width .cont select::-webkit-file-upload-button, .Add-administrative-structure-and-levels .max-width .cont input::-webkit-file-upload-button, .Add-administrative-structure-and-levels .max-width .cont select::-webkit-file-upload-button, .Amending-the-administrative-structure .max-width .cont input::-webkit-file-upload-button, .Amending-the-administrative-structure .max-width .cont select::-webkit-file-upload-button, .Add-a-domain-account .max-width .cont input::-webkit-file-upload-button, .Add-a-domain-account .max-width .cont select::-webkit-file-upload-button, .Add-an-email-account .max-width .cont input::-webkit-file-upload-button, .Add-an-email-account .max-width .cont select::-webkit-file-upload-button, .Create-additional-services .max-width .cont input::-webkit-file-upload-button, .Create-additional-services .max-width .cont select::-webkit-file-upload-button, .Create-packages-and-services .max-width .cont input::-webkit-file-upload-button, .Create-packages-and-services .max-width .cont select::-webkit-file-upload-button, .Add-an-electronic-payment-gateway .max-width .cont input::-webkit-file-upload-button, .Add-an-electronic-payment-gateway .max-width .cont select::-webkit-file-upload-button, .Register-a-new-association .max-width .cont input::-webkit-file-upload-button, .Register-a-new-association .max-width .cont select::-webkit-file-upload-button {
+  display: none;
+}
+.free-and-occupied-days .max-width .cont input::file-selector-button,
+.free-and-occupied-days .max-width .cont select::file-selector-button,
+.Add-specific-groups .max-width .cont input::file-selector-button,
+.Add-specific-groups .max-width .cont select::file-selector-button,
+.Add-an-academic-year .max-width .cont input::file-selector-button,
+.Add-an-academic-year .max-width .cont select::file-selector-button,
+.Event-reminder .max-width .cont input::file-selector-button,
+.Event-reminder .max-width .cont select::file-selector-button,
+.calendar .max-width .cont input::file-selector-button,
+.calendar .max-width .cont select::file-selector-button,
+.Link-job-titles-to-groups .max-width .cont input::file-selector-button,
+.Link-job-titles-to-groups .max-width .cont select::file-selector-button,
+.Add-a-unified-Quran .max-width .cont input::file-selector-button,
+.Add-a-unified-Quran .max-width .cont select::file-selector-button,
+.Add-curriculum .max-width .cont input::file-selector-button,
+.Add-curriculum .max-width .cont select::file-selector-button,
+.Add-the-recorded-Quran .max-width .cont input::file-selector-button,
+.Add-the-recorded-Quran .max-width .cont select::file-selector-button,
+.Adding-content .max-width .cont input::file-selector-button,
+.Adding-content .max-width .cont select::file-selector-button,
+.Content-modification .max-width .cont input::file-selector-button,
+.Content-modification .max-width .cont select::file-selector-button,
+.Add-administrative-structure-and-levels .max-width .cont input::file-selector-button,
+.Add-administrative-structure-and-levels .max-width .cont select::file-selector-button,
+.Amending-the-administrative-structure .max-width .cont input::file-selector-button,
+.Amending-the-administrative-structure .max-width .cont select::file-selector-button,
+.Add-a-domain-account .max-width .cont input::file-selector-button,
+.Add-a-domain-account .max-width .cont select::file-selector-button,
+.Add-an-email-account .max-width .cont input::file-selector-button,
+.Add-an-email-account .max-width .cont select::file-selector-button,
+.Create-additional-services .max-width .cont input::file-selector-button,
+.Create-additional-services .max-width .cont select::file-selector-button,
+.Create-packages-and-services .max-width .cont input::file-selector-button,
+.Create-packages-and-services .max-width .cont select::file-selector-button,
+.Add-an-electronic-payment-gateway .max-width .cont input::file-selector-button,
+.Add-an-electronic-payment-gateway .max-width .cont select::file-selector-button,
+.Register-a-new-association .max-width .cont input::file-selector-button,
+.Register-a-new-association .max-width .cont select::file-selector-button {
+  display: none;
+}
+.free-and-occupied-days .max-width .cont input[type=text],
+.free-and-occupied-days .max-width .cont select[type=text],
+.Add-specific-groups .max-width .cont input[type=text],
+.Add-specific-groups .max-width .cont select[type=text],
+.Add-an-academic-year .max-width .cont input[type=text],
+.Add-an-academic-year .max-width .cont select[type=text],
+.Event-reminder .max-width .cont input[type=text],
+.Event-reminder .max-width .cont select[type=text],
+.calendar .max-width .cont input[type=text],
+.calendar .max-width .cont select[type=text],
+.Link-job-titles-to-groups .max-width .cont input[type=text],
+.Link-job-titles-to-groups .max-width .cont select[type=text],
+.Add-a-unified-Quran .max-width .cont input[type=text],
+.Add-a-unified-Quran .max-width .cont select[type=text],
+.Add-curriculum .max-width .cont input[type=text],
+.Add-curriculum .max-width .cont select[type=text],
+.Add-the-recorded-Quran .max-width .cont input[type=text],
+.Add-the-recorded-Quran .max-width .cont select[type=text],
+.Adding-content .max-width .cont input[type=text],
+.Adding-content .max-width .cont select[type=text],
+.Content-modification .max-width .cont input[type=text],
+.Content-modification .max-width .cont select[type=text],
+.Add-administrative-structure-and-levels .max-width .cont input[type=text],
+.Add-administrative-structure-and-levels .max-width .cont select[type=text],
+.Amending-the-administrative-structure .max-width .cont input[type=text],
+.Amending-the-administrative-structure .max-width .cont select[type=text],
+.Add-a-domain-account .max-width .cont input[type=text],
+.Add-a-domain-account .max-width .cont select[type=text],
+.Add-an-email-account .max-width .cont input[type=text],
+.Add-an-email-account .max-width .cont select[type=text],
+.Create-additional-services .max-width .cont input[type=text],
+.Create-additional-services .max-width .cont select[type=text],
+.Create-packages-and-services .max-width .cont input[type=text],
+.Create-packages-and-services .max-width .cont select[type=text],
+.Add-an-electronic-payment-gateway .max-width .cont input[type=text],
+.Add-an-electronic-payment-gateway .max-width .cont select[type=text],
+.Register-a-new-association .max-width .cont input[type=text],
+.Register-a-new-association .max-width .cont select[type=text] {
+  background-color: white !important;
+}
+.free-and-occupied-days .max-width > .text,
+.Add-specific-groups .max-width > .text,
+.Add-an-academic-year .max-width > .text,
+.Event-reminder .max-width > .text,
+.calendar .max-width > .text,
+.Link-job-titles-to-groups .max-width > .text,
+.Add-a-unified-Quran .max-width > .text,
+.Add-curriculum .max-width > .text,
+.Add-the-recorded-Quran .max-width > .text,
+.Adding-content .max-width > .text,
+.Content-modification .max-width > .text,
+.Add-administrative-structure-and-levels .max-width > .text,
+.Amending-the-administrative-structure .max-width > .text,
+.Add-a-domain-account .max-width > .text,
+.Add-an-email-account .max-width > .text,
+.Create-additional-services .max-width > .text,
+.Create-packages-and-services .max-width > .text,
+.Add-an-electronic-payment-gateway .max-width > .text,
+.Register-a-new-association .max-width > .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: var(--primary-color);
+  margin-top: 50px;
+  width: 48%;
+}
+.free-and-occupied-days .max-width > .text h2,
+.Add-specific-groups .max-width > .text h2,
+.Add-an-academic-year .max-width > .text h2,
+.Event-reminder .max-width > .text h2,
+.calendar .max-width > .text h2,
+.Link-job-titles-to-groups .max-width > .text h2,
+.Add-a-unified-Quran .max-width > .text h2,
+.Add-curriculum .max-width > .text h2,
+.Add-the-recorded-Quran .max-width > .text h2,
+.Adding-content .max-width > .text h2,
+.Content-modification .max-width > .text h2,
+.Add-administrative-structure-and-levels .max-width > .text h2,
+.Amending-the-administrative-structure .max-width > .text h2,
+.Add-a-domain-account .max-width > .text h2,
+.Add-an-email-account .max-width > .text h2,
+.Create-additional-services .max-width > .text h2,
+.Create-packages-and-services .max-width > .text h2,
+.Add-an-electronic-payment-gateway .max-width > .text h2,
+.Register-a-new-association .max-width > .text h2 {
+  font-weight: 500;
+  color: var(--primary-color) !important;
+}
+.free-and-occupied-days .max-width > .text h1,
+.Add-specific-groups .max-width > .text h1,
+.Add-an-academic-year .max-width > .text h1,
+.Event-reminder .max-width > .text h1,
+.calendar .max-width > .text h1,
+.Link-job-titles-to-groups .max-width > .text h1,
+.Add-a-unified-Quran .max-width > .text h1,
+.Add-curriculum .max-width > .text h1,
+.Add-the-recorded-Quran .max-width > .text h1,
+.Adding-content .max-width > .text h1,
+.Content-modification .max-width > .text h1,
+.Add-administrative-structure-and-levels .max-width > .text h1,
+.Amending-the-administrative-structure .max-width > .text h1,
+.Add-a-domain-account .max-width > .text h1,
+.Add-an-email-account .max-width > .text h1,
+.Create-additional-services .max-width > .text h1,
+.Create-packages-and-services .max-width > .text h1,
+.Add-an-electronic-payment-gateway .max-width > .text h1,
+.Register-a-new-association .max-width > .text h1 {
+  color: var(--primary-color) !important;
+}
+.free-and-occupied-days .max-width .container,
+.Add-specific-groups .max-width .container,
+.Add-an-academic-year .max-width .container,
+.Event-reminder .max-width .container,
+.calendar .max-width .container,
+.Link-job-titles-to-groups .max-width .container,
+.Add-a-unified-Quran .max-width .container,
+.Add-curriculum .max-width .container,
+.Add-the-recorded-Quran .max-width .container,
+.Adding-content .max-width .container,
+.Content-modification .max-width .container,
+.Add-administrative-structure-and-levels .max-width .container,
+.Amending-the-administrative-structure .max-width .container,
+.Add-a-domain-account .max-width .container,
+.Add-an-email-account .max-width .container,
+.Create-additional-services .max-width .container,
+.Create-packages-and-services .max-width .container,
+.Add-an-electronic-payment-gateway .max-width .container,
+.Register-a-new-association .max-width .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.free-and-occupied-days .max-width .container .backGround-photo-nested-pages,
+.Add-specific-groups .max-width .container .backGround-photo-nested-pages,
+.Add-an-academic-year .max-width .container .backGround-photo-nested-pages,
+.Event-reminder .max-width .container .backGround-photo-nested-pages,
+.calendar .max-width .container .backGround-photo-nested-pages,
+.Link-job-titles-to-groups .max-width .container .backGround-photo-nested-pages,
+.Add-a-unified-Quran .max-width .container .backGround-photo-nested-pages,
+.Add-curriculum .max-width .container .backGround-photo-nested-pages,
+.Add-the-recorded-Quran .max-width .container .backGround-photo-nested-pages,
+.Adding-content .max-width .container .backGround-photo-nested-pages,
+.Content-modification .max-width .container .backGround-photo-nested-pages,
+.Add-administrative-structure-and-levels .max-width .container .backGround-photo-nested-pages,
+.Amending-the-administrative-structure .max-width .container .backGround-photo-nested-pages,
+.Add-a-domain-account .max-width .container .backGround-photo-nested-pages,
+.Add-an-email-account .max-width .container .backGround-photo-nested-pages,
+.Create-additional-services .max-width .container .backGround-photo-nested-pages,
+.Create-packages-and-services .max-width .container .backGround-photo-nested-pages,
+.Add-an-electronic-payment-gateway .max-width .container .backGround-photo-nested-pages,
+.Register-a-new-association .max-width .container .backGround-photo-nested-pages {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.free-and-occupied-days .max-width .container .backGround-photo-nested-pages img,
+.Add-specific-groups .max-width .container .backGround-photo-nested-pages img,
+.Add-an-academic-year .max-width .container .backGround-photo-nested-pages img,
+.Event-reminder .max-width .container .backGround-photo-nested-pages img,
+.calendar .max-width .container .backGround-photo-nested-pages img,
+.Link-job-titles-to-groups .max-width .container .backGround-photo-nested-pages img,
+.Add-a-unified-Quran .max-width .container .backGround-photo-nested-pages img,
+.Add-curriculum .max-width .container .backGround-photo-nested-pages img,
+.Add-the-recorded-Quran .max-width .container .backGround-photo-nested-pages img,
+.Adding-content .max-width .container .backGround-photo-nested-pages img,
+.Content-modification .max-width .container .backGround-photo-nested-pages img,
+.Add-administrative-structure-and-levels .max-width .container .backGround-photo-nested-pages img,
+.Amending-the-administrative-structure .max-width .container .backGround-photo-nested-pages img,
+.Add-a-domain-account .max-width .container .backGround-photo-nested-pages img,
+.Add-an-email-account .max-width .container .backGround-photo-nested-pages img,
+.Create-additional-services .max-width .container .backGround-photo-nested-pages img,
+.Create-packages-and-services .max-width .container .backGround-photo-nested-pages img,
+.Add-an-electronic-payment-gateway .max-width .container .backGround-photo-nested-pages img,
+.Register-a-new-association .max-width .container .backGround-photo-nested-pages img {
+  width: 30vw;
+  height: 100%;
+  max-height: 370px;
+  min-width: 340px;
+}
+.free-and-occupied-days .max-width .container .right,
+.Add-specific-groups .max-width .container .right,
+.Add-an-academic-year .max-width .container .right,
+.Event-reminder .max-width .container .right,
+.calendar .max-width .container .right,
+.Link-job-titles-to-groups .max-width .container .right,
+.Add-a-unified-Quran .max-width .container .right,
+.Add-curriculum .max-width .container .right,
+.Add-the-recorded-Quran .max-width .container .right,
+.Adding-content .max-width .container .right,
+.Content-modification .max-width .container .right,
+.Add-administrative-structure-and-levels .max-width .container .right,
+.Amending-the-administrative-structure .max-width .container .right,
+.Add-a-domain-account .max-width .container .right,
+.Add-an-email-account .max-width .container .right,
+.Create-additional-services .max-width .container .right,
+.Create-packages-and-services .max-width .container .right,
+.Add-an-electronic-payment-gateway .max-width .container .right,
+.Register-a-new-association .max-width .container .right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+}
+.free-and-occupied-days .max-width .container .cont,
+.Add-specific-groups .max-width .container .cont,
+.Add-an-academic-year .max-width .container .cont,
+.Event-reminder .max-width .container .cont,
+.calendar .max-width .container .cont,
+.Link-job-titles-to-groups .max-width .container .cont,
+.Add-a-unified-Quran .max-width .container .cont,
+.Add-curriculum .max-width .container .cont,
+.Add-the-recorded-Quran .max-width .container .cont,
+.Adding-content .max-width .container .cont,
+.Content-modification .max-width .container .cont,
+.Add-administrative-structure-and-levels .max-width .container .cont,
+.Amending-the-administrative-structure .max-width .container .cont,
+.Add-a-domain-account .max-width .container .cont,
+.Add-an-email-account .max-width .container .cont,
+.Create-additional-services .max-width .container .cont,
+.Create-packages-and-services .max-width .container .cont,
+.Add-an-electronic-payment-gateway .max-width .container .cont,
+.Register-a-new-association .max-width .container .cont {
+  max-width: unset;
+}
+.free-and-occupied-days .max-width .bottom-container,
+.Add-specific-groups .max-width .bottom-container,
+.Add-an-academic-year .max-width .bottom-container,
+.Event-reminder .max-width .bottom-container,
+.calendar .max-width .bottom-container,
+.Link-job-titles-to-groups .max-width .bottom-container,
+.Add-a-unified-Quran .max-width .bottom-container,
+.Add-curriculum .max-width .bottom-container,
+.Add-the-recorded-Quran .max-width .bottom-container,
+.Adding-content .max-width .bottom-container,
+.Content-modification .max-width .bottom-container,
+.Add-administrative-structure-and-levels .max-width .bottom-container,
+.Amending-the-administrative-structure .max-width .bottom-container,
+.Add-a-domain-account .max-width .bottom-container,
+.Add-an-email-account .max-width .bottom-container,
+.Create-additional-services .max-width .bottom-container,
+.Create-packages-and-services .max-width .bottom-container,
+.Add-an-electronic-payment-gateway .max-width .bottom-container,
+.Register-a-new-association .max-width .bottom-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.free-and-occupied-days .max-width .bottom-container .bottom,
+.Add-specific-groups .max-width .bottom-container .bottom,
+.Add-an-academic-year .max-width .bottom-container .bottom,
+.Event-reminder .max-width .bottom-container .bottom,
+.calendar .max-width .bottom-container .bottom,
+.Link-job-titles-to-groups .max-width .bottom-container .bottom,
+.Add-a-unified-Quran .max-width .bottom-container .bottom,
+.Add-curriculum .max-width .bottom-container .bottom,
+.Add-the-recorded-Quran .max-width .bottom-container .bottom,
+.Adding-content .max-width .bottom-container .bottom,
+.Content-modification .max-width .bottom-container .bottom,
+.Add-administrative-structure-and-levels .max-width .bottom-container .bottom,
+.Amending-the-administrative-structure .max-width .bottom-container .bottom,
+.Add-a-domain-account .max-width .bottom-container .bottom,
+.Add-an-email-account .max-width .bottom-container .bottom,
+.Create-additional-services .max-width .bottom-container .bottom,
+.Create-packages-and-services .max-width .bottom-container .bottom,
+.Add-an-electronic-payment-gateway .max-width .bottom-container .bottom,
+.Register-a-new-association .max-width .bottom-container .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+.free-and-occupied-days .max-width .bottom-container .bottom .cont,
+.Add-specific-groups .max-width .bottom-container .bottom .cont,
+.Add-an-academic-year .max-width .bottom-container .bottom .cont,
+.Event-reminder .max-width .bottom-container .bottom .cont,
+.calendar .max-width .bottom-container .bottom .cont,
+.Link-job-titles-to-groups .max-width .bottom-container .bottom .cont,
+.Add-a-unified-Quran .max-width .bottom-container .bottom .cont,
+.Add-curriculum .max-width .bottom-container .bottom .cont,
+.Add-the-recorded-Quran .max-width .bottom-container .bottom .cont,
+.Adding-content .max-width .bottom-container .bottom .cont,
+.Content-modification .max-width .bottom-container .bottom .cont,
+.Add-administrative-structure-and-levels .max-width .bottom-container .bottom .cont,
+.Amending-the-administrative-structure .max-width .bottom-container .bottom .cont,
+.Add-a-domain-account .max-width .bottom-container .bottom .cont,
+.Add-an-email-account .max-width .bottom-container .bottom .cont,
+.Create-additional-services .max-width .bottom-container .bottom .cont,
+.Create-packages-and-services .max-width .bottom-container .bottom .cont,
+.Add-an-electronic-payment-gateway .max-width .bottom-container .bottom .cont,
+.Register-a-new-association .max-width .bottom-container .bottom .cont {
+  min-width: 275px;
+  max-width: 47%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 47%;
+          flex: 1 0 47%;
+  position: relative;
+}
+.free-and-occupied-days .max-width .bottom-container .bottom .cont .text,
+.Add-specific-groups .max-width .bottom-container .bottom .cont .text,
+.Add-an-academic-year .max-width .bottom-container .bottom .cont .text,
+.Event-reminder .max-width .bottom-container .bottom .cont .text,
+.calendar .max-width .bottom-container .bottom .cont .text,
+.Link-job-titles-to-groups .max-width .bottom-container .bottom .cont .text,
+.Add-a-unified-Quran .max-width .bottom-container .bottom .cont .text,
+.Add-curriculum .max-width .bottom-container .bottom .cont .text,
+.Add-the-recorded-Quran .max-width .bottom-container .bottom .cont .text,
+.Adding-content .max-width .bottom-container .bottom .cont .text,
+.Content-modification .max-width .bottom-container .bottom .cont .text,
+.Add-administrative-structure-and-levels .max-width .bottom-container .bottom .cont .text,
+.Amending-the-administrative-structure .max-width .bottom-container .bottom .cont .text,
+.Add-a-domain-account .max-width .bottom-container .bottom .cont .text,
+.Add-an-email-account .max-width .bottom-container .bottom .cont .text,
+.Create-additional-services .max-width .bottom-container .bottom .cont .text,
+.Create-packages-and-services .max-width .bottom-container .bottom .cont .text,
+.Add-an-electronic-payment-gateway .max-width .bottom-container .bottom .cont .text,
+.Register-a-new-association .max-width .bottom-container .bottom .cont .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: var(--primary-color);
+}
+.free-and-occupied-days .max-width .bottom-container .bottom .cont .text h2:first-child,
+.Add-specific-groups .max-width .bottom-container .bottom .cont .text h2:first-child,
+.Add-an-academic-year .max-width .bottom-container .bottom .cont .text h2:first-child,
+.Event-reminder .max-width .bottom-container .bottom .cont .text h2:first-child,
+.calendar .max-width .bottom-container .bottom .cont .text h2:first-child,
+.Link-job-titles-to-groups .max-width .bottom-container .bottom .cont .text h2:first-child,
+.Add-a-unified-Quran .max-width .bottom-container .bottom .cont .text h2:first-child,
+.Add-curriculum .max-width .bottom-container .bottom .cont .text h2:first-child,
+.Add-the-recorded-Quran .max-width .bottom-container .bottom .cont .text h2:first-child,
+.Adding-content .max-width .bottom-container .bottom .cont .text h2:first-child,
+.Content-modification .max-width .bottom-container .bottom .cont .text h2:first-child,
+.Add-administrative-structure-and-levels .max-width .bottom-container .bottom .cont .text h2:first-child,
+.Amending-the-administrative-structure .max-width .bottom-container .bottom .cont .text h2:first-child,
+.Add-a-domain-account .max-width .bottom-container .bottom .cont .text h2:first-child,
+.Add-an-email-account .max-width .bottom-container .bottom .cont .text h2:first-child,
+.Create-additional-services .max-width .bottom-container .bottom .cont .text h2:first-child,
+.Create-packages-and-services .max-width .bottom-container .bottom .cont .text h2:first-child,
+.Add-an-electronic-payment-gateway .max-width .bottom-container .bottom .cont .text h2:first-child,
+.Register-a-new-association .max-width .bottom-container .bottom .cont .text h2:first-child {
+  font-weight: 500;
+}
+.free-and-occupied-days .max-width .bottom-container .bottom .cont h3,
+.Add-specific-groups .max-width .bottom-container .bottom .cont h3,
+.Add-an-academic-year .max-width .bottom-container .bottom .cont h3,
+.Event-reminder .max-width .bottom-container .bottom .cont h3,
+.calendar .max-width .bottom-container .bottom .cont h3,
+.Link-job-titles-to-groups .max-width .bottom-container .bottom .cont h3,
+.Add-a-unified-Quran .max-width .bottom-container .bottom .cont h3,
+.Add-curriculum .max-width .bottom-container .bottom .cont h3,
+.Add-the-recorded-Quran .max-width .bottom-container .bottom .cont h3,
+.Adding-content .max-width .bottom-container .bottom .cont h3,
+.Content-modification .max-width .bottom-container .bottom .cont h3,
+.Add-administrative-structure-and-levels .max-width .bottom-container .bottom .cont h3,
+.Amending-the-administrative-structure .max-width .bottom-container .bottom .cont h3,
+.Add-a-domain-account .max-width .bottom-container .bottom .cont h3,
+.Add-an-email-account .max-width .bottom-container .bottom .cont h3,
+.Create-additional-services .max-width .bottom-container .bottom .cont h3,
+.Create-packages-and-services .max-width .bottom-container .bottom .cont h3,
+.Add-an-electronic-payment-gateway .max-width .bottom-container .bottom .cont h3,
+.Register-a-new-association .max-width .bottom-container .bottom .cont h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.free-and-occupied-days .max-width .bottom-container .bottom .cont input,
+.free-and-occupied-days .max-width .bottom-container .bottom .cont select,
+.Add-specific-groups .max-width .bottom-container .bottom .cont input,
+.Add-specific-groups .max-width .bottom-container .bottom .cont select,
+.Add-an-academic-year .max-width .bottom-container .bottom .cont input,
+.Add-an-academic-year .max-width .bottom-container .bottom .cont select,
+.Event-reminder .max-width .bottom-container .bottom .cont input,
+.Event-reminder .max-width .bottom-container .bottom .cont select,
+.calendar .max-width .bottom-container .bottom .cont input,
+.calendar .max-width .bottom-container .bottom .cont select,
+.Link-job-titles-to-groups .max-width .bottom-container .bottom .cont input,
+.Link-job-titles-to-groups .max-width .bottom-container .bottom .cont select,
+.Add-a-unified-Quran .max-width .bottom-container .bottom .cont input,
+.Add-a-unified-Quran .max-width .bottom-container .bottom .cont select,
+.Add-curriculum .max-width .bottom-container .bottom .cont input,
+.Add-curriculum .max-width .bottom-container .bottom .cont select,
+.Add-the-recorded-Quran .max-width .bottom-container .bottom .cont input,
+.Add-the-recorded-Quran .max-width .bottom-container .bottom .cont select,
+.Adding-content .max-width .bottom-container .bottom .cont input,
+.Adding-content .max-width .bottom-container .bottom .cont select,
+.Content-modification .max-width .bottom-container .bottom .cont input,
+.Content-modification .max-width .bottom-container .bottom .cont select,
+.Add-administrative-structure-and-levels .max-width .bottom-container .bottom .cont input,
+.Add-administrative-structure-and-levels .max-width .bottom-container .bottom .cont select,
+.Amending-the-administrative-structure .max-width .bottom-container .bottom .cont input,
+.Amending-the-administrative-structure .max-width .bottom-container .bottom .cont select,
+.Add-a-domain-account .max-width .bottom-container .bottom .cont input,
+.Add-a-domain-account .max-width .bottom-container .bottom .cont select,
+.Add-an-email-account .max-width .bottom-container .bottom .cont input,
+.Add-an-email-account .max-width .bottom-container .bottom .cont select,
+.Create-additional-services .max-width .bottom-container .bottom .cont input,
+.Create-additional-services .max-width .bottom-container .bottom .cont select,
+.Create-packages-and-services .max-width .bottom-container .bottom .cont input,
+.Create-packages-and-services .max-width .bottom-container .bottom .cont select,
+.Add-an-electronic-payment-gateway .max-width .bottom-container .bottom .cont input,
+.Add-an-electronic-payment-gateway .max-width .bottom-container .bottom .cont select,
+.Register-a-new-association .max-width .bottom-container .bottom .cont input,
+.Register-a-new-association .max-width .bottom-container .bottom .cont select {
+  border: 1px solid var(--primary-color);
+  text-align: start;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  position: relative;
+  width: 100%;
+  height: 55px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.free-and-occupied-days .max-width .bottom-container .bottom .cont input:focus-visible,
+.free-and-occupied-days .max-width .bottom-container .bottom .cont select:focus-visible,
+.Add-specific-groups .max-width .bottom-container .bottom .cont input:focus-visible,
+.Add-specific-groups .max-width .bottom-container .bottom .cont select:focus-visible,
+.Add-an-academic-year .max-width .bottom-container .bottom .cont input:focus-visible,
+.Add-an-academic-year .max-width .bottom-container .bottom .cont select:focus-visible,
+.Event-reminder .max-width .bottom-container .bottom .cont input:focus-visible,
+.Event-reminder .max-width .bottom-container .bottom .cont select:focus-visible,
+.calendar .max-width .bottom-container .bottom .cont input:focus-visible,
+.calendar .max-width .bottom-container .bottom .cont select:focus-visible,
+.Link-job-titles-to-groups .max-width .bottom-container .bottom .cont input:focus-visible,
+.Link-job-titles-to-groups .max-width .bottom-container .bottom .cont select:focus-visible,
+.Add-a-unified-Quran .max-width .bottom-container .bottom .cont input:focus-visible,
+.Add-a-unified-Quran .max-width .bottom-container .bottom .cont select:focus-visible,
+.Add-curriculum .max-width .bottom-container .bottom .cont input:focus-visible,
+.Add-curriculum .max-width .bottom-container .bottom .cont select:focus-visible,
+.Add-the-recorded-Quran .max-width .bottom-container .bottom .cont input:focus-visible,
+.Add-the-recorded-Quran .max-width .bottom-container .bottom .cont select:focus-visible,
+.Adding-content .max-width .bottom-container .bottom .cont input:focus-visible,
+.Adding-content .max-width .bottom-container .bottom .cont select:focus-visible,
+.Content-modification .max-width .bottom-container .bottom .cont input:focus-visible,
+.Content-modification .max-width .bottom-container .bottom .cont select:focus-visible,
+.Add-administrative-structure-and-levels .max-width .bottom-container .bottom .cont input:focus-visible,
+.Add-administrative-structure-and-levels .max-width .bottom-container .bottom .cont select:focus-visible,
+.Amending-the-administrative-structure .max-width .bottom-container .bottom .cont input:focus-visible,
+.Amending-the-administrative-structure .max-width .bottom-container .bottom .cont select:focus-visible,
+.Add-a-domain-account .max-width .bottom-container .bottom .cont input:focus-visible,
+.Add-a-domain-account .max-width .bottom-container .bottom .cont select:focus-visible,
+.Add-an-email-account .max-width .bottom-container .bottom .cont input:focus-visible,
+.Add-an-email-account .max-width .bottom-container .bottom .cont select:focus-visible,
+.Create-additional-services .max-width .bottom-container .bottom .cont input:focus-visible,
+.Create-additional-services .max-width .bottom-container .bottom .cont select:focus-visible,
+.Create-packages-and-services .max-width .bottom-container .bottom .cont input:focus-visible,
+.Create-packages-and-services .max-width .bottom-container .bottom .cont select:focus-visible,
+.Add-an-electronic-payment-gateway .max-width .bottom-container .bottom .cont input:focus-visible,
+.Add-an-electronic-payment-gateway .max-width .bottom-container .bottom .cont select:focus-visible,
+.Register-a-new-association .max-width .bottom-container .bottom .cont input:focus-visible,
+.Register-a-new-association .max-width .bottom-container .bottom .cont select:focus-visible {
+  border: 2px solid var(--gray-color);
+  outline: none;
+}
+.free-and-occupied-days .max-width .bottom-container .bottom .cont input::-webkit-input-placeholder,
+.free-and-occupied-days .max-width .bottom-container .bottom .cont select::-webkit-input-placeholder,
+.Add-specific-groups .max-width .bottom-container .bottom .cont input::-webkit-input-placeholder,
+.Add-specific-groups .max-width .bottom-container .bottom .cont select::-webkit-input-placeholder,
+.Add-an-academic-year .max-width .bottom-container .bottom .cont input::-webkit-input-placeholder,
+.Add-an-academic-year .max-width .bottom-container .bottom .cont select::-webkit-input-placeholder,
+.Event-reminder .max-width .bottom-container .bottom .cont input::-webkit-input-placeholder,
+.Event-reminder .max-width .bottom-container .bottom .cont select::-webkit-input-placeholder,
+.calendar .max-width .bottom-container .bottom .cont input::-webkit-input-placeholder,
+.calendar .max-width .bottom-container .bottom .cont select::-webkit-input-placeholder,
+.Link-job-titles-to-groups .max-width .bottom-container .bottom .cont input::-webkit-input-placeholder,
+.Link-job-titles-to-groups .max-width .bottom-container .bottom .cont select::-webkit-input-placeholder,
+.Add-a-unified-Quran .max-width .bottom-container .bottom .cont input::-webkit-input-placeholder,
+.Add-a-unified-Quran .max-width .bottom-container .bottom .cont select::-webkit-input-placeholder,
+.Add-curriculum .max-width .bottom-container .bottom .cont input::-webkit-input-placeholder,
+.Add-curriculum .max-width .bottom-container .bottom .cont select::-webkit-input-placeholder,
+.Add-the-recorded-Quran .max-width .bottom-container .bottom .cont input::-webkit-input-placeholder,
+.Add-the-recorded-Quran .max-width .bottom-container .bottom .cont select::-webkit-input-placeholder,
+.Adding-content .max-width .bottom-container .bottom .cont input::-webkit-input-placeholder,
+.Adding-content .max-width .bottom-container .bottom .cont select::-webkit-input-placeholder,
+.Content-modification .max-width .bottom-container .bottom .cont input::-webkit-input-placeholder,
+.Content-modification .max-width .bottom-container .bottom .cont select::-webkit-input-placeholder,
+.Add-administrative-structure-and-levels .max-width .bottom-container .bottom .cont input::-webkit-input-placeholder,
+.Add-administrative-structure-and-levels .max-width .bottom-container .bottom .cont select::-webkit-input-placeholder,
+.Amending-the-administrative-structure .max-width .bottom-container .bottom .cont input::-webkit-input-placeholder,
+.Amending-the-administrative-structure .max-width .bottom-container .bottom .cont select::-webkit-input-placeholder,
+.Add-a-domain-account .max-width .bottom-container .bottom .cont input::-webkit-input-placeholder,
+.Add-a-domain-account .max-width .bottom-container .bottom .cont select::-webkit-input-placeholder,
+.Add-an-email-account .max-width .bottom-container .bottom .cont input::-webkit-input-placeholder,
+.Add-an-email-account .max-width .bottom-container .bottom .cont select::-webkit-input-placeholder,
+.Create-additional-services .max-width .bottom-container .bottom .cont input::-webkit-input-placeholder,
+.Create-additional-services .max-width .bottom-container .bottom .cont select::-webkit-input-placeholder,
+.Create-packages-and-services .max-width .bottom-container .bottom .cont input::-webkit-input-placeholder,
+.Create-packages-and-services .max-width .bottom-container .bottom .cont select::-webkit-input-placeholder,
+.Add-an-electronic-payment-gateway .max-width .bottom-container .bottom .cont input::-webkit-input-placeholder,
+.Add-an-electronic-payment-gateway .max-width .bottom-container .bottom .cont select::-webkit-input-placeholder,
+.Register-a-new-association .max-width .bottom-container .bottom .cont input::-webkit-input-placeholder,
+.Register-a-new-association .max-width .bottom-container .bottom .cont select::-webkit-input-placeholder {
+  opacity: 0.6;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
+  font-size: 17px;
+  font-weight: 700;
+}
+.free-and-occupied-days .max-width form,
+.Add-specific-groups .max-width form,
+.Add-an-academic-year .max-width form,
+.Event-reminder .max-width form,
+.calendar .max-width form,
+.Link-job-titles-to-groups .max-width form,
+.Add-a-unified-Quran .max-width form,
+.Add-curriculum .max-width form,
+.Add-the-recorded-Quran .max-width form,
+.Adding-content .max-width form,
+.Content-modification .max-width form,
+.Add-administrative-structure-and-levels .max-width form,
+.Amending-the-administrative-structure .max-width form,
+.Add-a-domain-account .max-width form,
+.Add-an-email-account .max-width form,
+.Create-additional-services .max-width form,
+.Create-packages-and-services .max-width form,
+.Add-an-electronic-payment-gateway .max-width form,
+.Register-a-new-association .max-width form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.free-and-occupied-days .max-width .buttons,
+.Add-specific-groups .max-width .buttons,
+.Add-an-academic-year .max-width .buttons,
+.Event-reminder .max-width .buttons,
+.calendar .max-width .buttons,
+.Link-job-titles-to-groups .max-width .buttons,
+.Add-a-unified-Quran .max-width .buttons,
+.Add-curriculum .max-width .buttons,
+.Add-the-recorded-Quran .max-width .buttons,
+.Adding-content .max-width .buttons,
+.Content-modification .max-width .buttons,
+.Add-administrative-structure-and-levels .max-width .buttons,
+.Amending-the-administrative-structure .max-width .buttons,
+.Add-a-domain-account .max-width .buttons,
+.Add-an-email-account .max-width .buttons,
+.Create-additional-services .max-width .buttons,
+.Create-packages-and-services .max-width .buttons,
+.Add-an-electronic-payment-gateway .max-width .buttons,
+.Register-a-new-association .max-width .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+.free-and-occupied-days .max-width .buttons button,
+.Add-specific-groups .max-width .buttons button,
+.Add-an-academic-year .max-width .buttons button,
+.Event-reminder .max-width .buttons button,
+.calendar .max-width .buttons button,
+.Link-job-titles-to-groups .max-width .buttons button,
+.Add-a-unified-Quran .max-width .buttons button,
+.Add-curriculum .max-width .buttons button,
+.Add-the-recorded-Quran .max-width .buttons button,
+.Adding-content .max-width .buttons button,
+.Content-modification .max-width .buttons button,
+.Add-administrative-structure-and-levels .max-width .buttons button,
+.Amending-the-administrative-structure .max-width .buttons button,
+.Add-a-domain-account .max-width .buttons button,
+.Add-an-email-account .max-width .buttons button,
+.Create-additional-services .max-width .buttons button,
+.Create-packages-and-services .max-width .buttons button,
+.Add-an-electronic-payment-gateway .max-width .buttons button,
+.Register-a-new-association .max-width .buttons button {
+  font-size: 20px;
+  color: white;
+  width: 50%;
+  height: 55px;
+  border: none;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 25px;
+  padding: 25px;
+  white-space: nowrap;
+  font-family: cairo;
+}
+.free-and-occupied-days .max-width .buttons a,
+.Add-specific-groups .max-width .buttons a,
+.Add-an-academic-year .max-width .buttons a,
+.Event-reminder .max-width .buttons a,
+.calendar .max-width .buttons a,
+.Link-job-titles-to-groups .max-width .buttons a,
+.Add-a-unified-Quran .max-width .buttons a,
+.Add-curriculum .max-width .buttons a,
+.Add-the-recorded-Quran .max-width .buttons a,
+.Adding-content .max-width .buttons a,
+.Content-modification .max-width .buttons a,
+.Add-administrative-structure-and-levels .max-width .buttons a,
+.Amending-the-administrative-structure .max-width .buttons a,
+.Add-a-domain-account .max-width .buttons a,
+.Add-an-email-account .max-width .buttons a,
+.Create-additional-services .max-width .buttons a,
+.Create-packages-and-services .max-width .buttons a,
+.Add-an-electronic-payment-gateway .max-width .buttons a,
+.Register-a-new-association .max-width .buttons a {
+  font-size: 20px;
+  color: white;
+  width: 50%;
+  height: 55px;
+  border: none;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  width: 25%;
+  color: var(--primary-color) !important;
+  border: 2px solid var(--primary-color) !important;
+  font-weight: 600;
+  margin-top: 25px;
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.free-and-occupied-days .max-width .checkbox,
+.Add-specific-groups .max-width .checkbox,
+.Add-an-academic-year .max-width .checkbox,
+.Event-reminder .max-width .checkbox,
+.calendar .max-width .checkbox,
+.Link-job-titles-to-groups .max-width .checkbox,
+.Add-a-unified-Quran .max-width .checkbox,
+.Add-curriculum .max-width .checkbox,
+.Add-the-recorded-Quran .max-width .checkbox,
+.Adding-content .max-width .checkbox,
+.Content-modification .max-width .checkbox,
+.Add-administrative-structure-and-levels .max-width .checkbox,
+.Amending-the-administrative-structure .max-width .checkbox,
+.Add-a-domain-account .max-width .checkbox,
+.Add-an-email-account .max-width .checkbox,
+.Create-additional-services .max-width .checkbox,
+.Create-packages-and-services .max-width .checkbox,
+.Add-an-electronic-payment-gateway .max-width .checkbox,
+.Register-a-new-association .max-width .checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  width: 50%;
+  margin: 50px 0;
+}
+.free-and-occupied-days .max-width .checkbox label,
+.Add-specific-groups .max-width .checkbox label,
+.Add-an-academic-year .max-width .checkbox label,
+.Event-reminder .max-width .checkbox label,
+.calendar .max-width .checkbox label,
+.Link-job-titles-to-groups .max-width .checkbox label,
+.Add-a-unified-Quran .max-width .checkbox label,
+.Add-curriculum .max-width .checkbox label,
+.Add-the-recorded-Quran .max-width .checkbox label,
+.Adding-content .max-width .checkbox label,
+.Content-modification .max-width .checkbox label,
+.Add-administrative-structure-and-levels .max-width .checkbox label,
+.Amending-the-administrative-structure .max-width .checkbox label,
+.Add-a-domain-account .max-width .checkbox label,
+.Add-an-email-account .max-width .checkbox label,
+.Create-additional-services .max-width .checkbox label,
+.Create-packages-and-services .max-width .checkbox label,
+.Add-an-electronic-payment-gateway .max-width .checkbox label,
+.Register-a-new-association .max-width .checkbox label {
+  color: var(--primary-color) !important;
+  font-size: 20px;
+  font-weight: 500;
+}
+.free-and-occupied-days .max-width .checkbox input,
+.Add-specific-groups .max-width .checkbox input,
+.Add-an-academic-year .max-width .checkbox input,
+.Event-reminder .max-width .checkbox input,
+.calendar .max-width .checkbox input,
+.Link-job-titles-to-groups .max-width .checkbox input,
+.Add-a-unified-Quran .max-width .checkbox input,
+.Add-curriculum .max-width .checkbox input,
+.Add-the-recorded-Quran .max-width .checkbox input,
+.Adding-content .max-width .checkbox input,
+.Content-modification .max-width .checkbox input,
+.Add-administrative-structure-and-levels .max-width .checkbox input,
+.Amending-the-administrative-structure .max-width .checkbox input,
+.Add-a-domain-account .max-width .checkbox input,
+.Add-an-email-account .max-width .checkbox input,
+.Create-additional-services .max-width .checkbox input,
+.Create-packages-and-services .max-width .checkbox input,
+.Add-an-electronic-payment-gateway .max-width .checkbox input,
+.Register-a-new-association .max-width .checkbox input {
+  margin-left: 10px;
+  width: 25px;
+  height: 25px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 3px solid var(--primary-color) !important;
+}
+.free-and-occupied-days .max-width .checkbox input:checked::before,
+.Add-specific-groups .max-width .checkbox input:checked::before,
+.Add-an-academic-year .max-width .checkbox input:checked::before,
+.Event-reminder .max-width .checkbox input:checked::before,
+.calendar .max-width .checkbox input:checked::before,
+.Link-job-titles-to-groups .max-width .checkbox input:checked::before,
+.Add-a-unified-Quran .max-width .checkbox input:checked::before,
+.Add-curriculum .max-width .checkbox input:checked::before,
+.Add-the-recorded-Quran .max-width .checkbox input:checked::before,
+.Adding-content .max-width .checkbox input:checked::before,
+.Content-modification .max-width .checkbox input:checked::before,
+.Add-administrative-structure-and-levels .max-width .checkbox input:checked::before,
+.Amending-the-administrative-structure .max-width .checkbox input:checked::before,
+.Add-a-domain-account .max-width .checkbox input:checked::before,
+.Add-an-email-account .max-width .checkbox input:checked::before,
+.Create-additional-services .max-width .checkbox input:checked::before,
+.Create-packages-and-services .max-width .checkbox input:checked::before,
+.Add-an-electronic-payment-gateway .max-width .checkbox input:checked::before,
+.Register-a-new-association .max-width .checkbox input:checked::before {
+  content: "✔";
+  display: block;
+  text-align: center;
+  color: #fff;
+  background-color: var(--primary-color);
+  height: 100%;
+  font-size: 16px;
+}
+@media (max-width: 959px) {
+  .free-and-occupied-days .max-width .cont,
+  .Add-specific-groups .max-width .cont,
+  .Add-an-academic-year .max-width .cont,
+  .Event-reminder .max-width .cont,
+  .calendar .max-width .cont,
+  .Link-job-titles-to-groups .max-width .cont,
+  .Add-a-unified-Quran .max-width .cont,
+  .Add-curriculum .max-width .cont,
+  .Add-the-recorded-Quran .max-width .cont,
+  .Adding-content .max-width .cont,
+  .Content-modification .max-width .cont,
+  .Add-administrative-structure-and-levels .max-width .cont,
+  .Amending-the-administrative-structure .max-width .cont,
+  .Add-a-domain-account .max-width .cont,
+  .Add-an-email-account .max-width .cont,
+  .Create-additional-services .max-width .cont,
+  .Create-packages-and-services .max-width .cont,
+  .Add-an-electronic-payment-gateway .max-width .cont,
+  .Register-a-new-association .max-width .cont {
+    max-width: unset;
+  }
+}
+
+/*############################# (systemsNestedPages) page End ###########################*/
