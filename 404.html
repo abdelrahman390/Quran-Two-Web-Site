@@ -13,6 +13,10 @@
         href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500&family=Ubuntu:wght@300;400;500;700&display=swap"
         rel="stylesheet"
     />
+    <!-- <link
+        rel="stylesheet"
+        href="https://raw.githubusercontent.com/abdelrahman390/Quran-Two-Web-Site/main/assets/style/main.css"
+    /> -->
     <style>
         html,
         body {
@@ -31,9 +35,197 @@
             width: 85%;
             margin: auto;
         }
+        /*########################################## Header start ##########################################################*/
+        header {
+            background-color: #07d8a6;
+            padding: 15px 0;
+        }
+        header a,
+        header span {
+            color: white !important;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+        header .max-width {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            position: relative;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            width: 90%;
+        }
+        header .right {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            gap: 30px;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+        header .right .links_container {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+        }
+        header .right .links_container ul {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            list-style: none;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            gap: 15px 45px;
+        }
+        header .right .links_container ul li {
+            position: relative;
+        }
+        header .right .links_container ul li a {
+            text-decoration: none;
+            font-size: 20px;
+            color: var(--white-color);
+            cursor: pointer;
+            font-family: system-ui;
+            position: relative;
+            font-weight: bold;
+        }
+        header .right .links_container ul li.active a:after {
+            content: "";
+            position: absolute;
+            background-color: white;
+            height: 12px;
+            width: 100%;
+            right: 0;
+            bottom: -32px;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+        header .right .links_container .burgerIcon {
+            display: none;
+        }
+        header .right .links_container .burgerIcon span {
+            display: block;
+            width: 35px;
+            height: 5px;
+            color: white;
+            background-color: white;
+            margin: 7px 0;
+            border-radius: 2px;
+        }
+        header .icons {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -webkit-column-gap: 35px;
+            -moz-column-gap: 35px;
+            column-gap: 35px;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+        }
+        header .icons li {
+            position: relative;
+            list-style: none;
+        }
+        header .icons li span.material-symbols-outlined {
+            margin-left: 5px;
+            height: 22px;
+        }
+        header .icons li a {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            text-decoration: none;
+            font-size: 20px;
+            color: var(--white-color);
+            cursor: pointer;
+            font-family: system-ui;
+            position: relative;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: reverse;
+            -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+        }
+        header .icons li.active a:after {
+            content: "";
+            position: absolute;
+            background-color: white;
+            height: 16px;
+            width: 100%;
+            right: 0;
+            bottom: -35px;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+        }
+        header .icons .cart {
+            position: relative;
+        }
+        header .icons .cart li .material-symbols-outlined {
+            margin-left: 5px;
+            height: 28px;
+        }
+        header .icons .cart li .itemsInCart {
+            background-color: red;
+            font-size: 13px;
+            border-radius: 50%;
+            height: 20px;
+            width: 20px;
+            text-align: center;
+            position: absolute;
+            top: -8px;
+            right: -10px;
+            display: unset;
+        }
+        /*########################################## Header End ##########################################################*/
+        /*#################################### footer section Start ############################################*/
+        footer {
+            height: 100px;
+            background-color: #262626;
+            color: white;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            margin-top: 65px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin-top: auto;
+        }
+        footer h2 {
+            font-weight: lighter;
+            color: white !important;
+        }
+
+        /*#################################### footer section End ##############################################*/
         .ErrorPage {
-            /* margin: 0; */
-            height: 100vh;
             display: flex;
             justify-content: center;
         }
@@ -87,12 +279,78 @@
     </style>
 </head>
 
+<header>
+    <div class="max-width">
+        <div class="right">
+            <!-- logo -->
+            <a href="404.html" class="logo">
+                <img src="assets/images/siraj-logo.png" alt="siraj-logo" />
+            </a>
+            <div class="links_container">
+                <ul>
+                    <li Association-statistics-page="mainPage" class="active">
+                        <a href="../index.html">الرئيسية</a>
+                    </li>
+                    <li Association-statistics-page="packeges">
+                        <a href="pages/packeges.html">الباقات</a>
+                    </li>
+                    <li Association-statistics-page="systems">
+                        <a href="pages/systems/systems.html">الأنظمة</a>
+                    </li>
+                    <li Association-statistics-page="technical-support">
+                        <a href="pages/technical-support.html">الدعم الفني</a>
+                    </li>
+                    <li
+                        Association-statistics-page="Frequently-Asked-Questions"
+                    >
+                        <a href="pages/Frequently-Asked-Questions.html"
+                            >أسئلة شائعه</a
+                        >
+                    </li>
+                    <li Association-statistics-page="call-us">
+                        <a href="pages/call-us.html">اتصل بنا</a>
+                    </li>
+                </ul>
+                <div class="burgerIcon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="icons">
+            <div class="account">
+                <li>
+                    <a href="pages/account/loginPage.html"
+                        >تسجيل الدخول
+                        <span class="material-symbols-outlined"> person </span>
+                    </a>
+                </li>
+            </div>
+
+            <div class="cart">
+                <li>
+                    <a href="pages/cart/cart.html">
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+                    </a>
+                </li>
+            </div>
+        </div>
+    </div>
+</header>
+
 <section class="ErrorPage">
     <div class="max-width">
         <h1 class="title">خطأ 404</h1>
         <div class="container">
             <div class="left">
-                <img src="https://raw.githubusercontent.com/abdelrahman390/Quran-Two-Web-Site/main/assets/images/404-photo.png" alt="404-photo" />
+                <img
+                    src="https://raw.githubusercontent.com/abdelrahman390/Quran-Two-Web-Site/main/assets/images/404-photo.png"
+                    alt="404-photo"
+                />
             </div>
             <div class="right">
                 <h1>لم نتمكن من العثور على الصفحة التي تبحث عنها</h1>
@@ -106,3 +364,7 @@
         </div>
     </div>
 </section>
+
+<footer>
+    <h2>جميع الحقوق محفوظه 2023 - 1444</h2>
+</footer>
