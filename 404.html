@@ -13,10 +13,30 @@
         href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500&family=Ubuntu:wght@300;400;500;700&display=swap"
         rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/style/main.css" />
+    <!-- <link rel="stylesheet" href="assets/style/main.css" /> -->
     <style>
-        .ErrorPage {
+        html,
+        body {
+            background-color: #fcfcfc;
+            font-family: "Cairo", sans-serif;
+            direction: rtl;
+        }
+        * {
             margin: 0;
+            padding: 0;
+            text-decoration: none;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .max-width {
+            width: 85%;
+            margin: auto;
+        }
+        .ErrorPage {
+            /* margin: 0; */
+            height: 100vh;
+            display: flex;
+            justify-content: center;
         }
         .ErrorPage .max-width {
             display: flex;
@@ -47,7 +67,7 @@
         }
         .ErrorPage .container .right > a {
             padding: 15px;
-            background-color: var(--primary-color);
+            background-color: #07d8a6;
             border-radius: 10px;
             width: 45%;
             text-align: center;
@@ -68,7 +88,6 @@
     </style>
 </head>
 
-
 <section class="ErrorPage">
     <div class="max-width">
         <h1 class="title">خطأ 404</h1>
@@ -88,19 +107,3 @@
         </div>
     </div>
 </section>
-
-<footer>
-    <h2>جميع الحقوق محفوظه 2023 - 1444</h2>
-</footer>
-
-<script>
-    function FixWhiteSpace() {
-        let errorFixFile = document.createElement("script");
-
-        errorFixFile.src = `assets/javascript/whiteSpaceErrorFix.js`;
-        setTimeout(function () {
-            document.head.appendChild(errorFixFile);
-        }, 1000);
-    }
-    FixWhiteSpace();
-</script>
