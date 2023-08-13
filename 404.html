@@ -198,6 +198,54 @@
             right: -10px;
             display: unset;
         }
+
+        @media screen and (min-width: 601px) and (max-width: 900px) {
+            /* Styles for screens that are between 601px and 900px wide */
+            header .right .links_container ul {
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                max-height: 400px !important;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+            }
+            header .right .links_container ul li {
+                position: relative;
+                margin: 5px 0;
+            }
+            header .right .links_container ul li.active a:after {
+                content: "";
+                height: 15px;
+                width: 15px;
+                right: -29px;
+                bottom: 4px;
+                border-radius: 50%;
+            }
+        }
+        @media screen and (max-width: 1195px) {
+            header .right .links_container ul {
+                display: none;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                position: absolute;
+                right: -5px;
+                top: 67px;
+                background-color: var(--primary-color);
+                z-index: 10;
+                padding: 0;
+                max-height: 0;
+            }
+            header .right .links_container .burgerIcon {
+                display: block;
+            }
+        }
+        @media screen and (max-width: 1350px) {
+            header .icons {
+                width: auto;
+            }
+        }
         /*########################################## Header End ##########################################################*/
         /*#################################### footer section Start ############################################*/
         footer {
@@ -245,8 +293,9 @@
             width: 100%;
             display: flex;
             flex-direction: row-reverse;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
+            flex-wrap: wrap;
         }
         .ErrorPage .container .left img {
             width: 27vw;
@@ -275,6 +324,46 @@
             font-size: 22px;
             font-weight: 500;
             margin: 25px 0;
+        }
+
+        @media screen and (max-width: 600px) {
+            /* Styles for screens that are 600px wide or less */
+            header .logo img {
+                width: 60px;
+            }
+            header .right .links_container ul {
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                max-height: 400px !important;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+            }
+            header .right .links_container ul li {
+                position: relative;
+                margin: 5px 0;
+            }
+            header .right .links_container ul li.active a:after {
+                content: "";
+                height: 15px;
+                width: 15px;
+                right: -29px;
+                bottom: 4px;
+                border-radius: 50%;
+            }
+            header .icons {
+                gap: 10px;
+            }
+            .ErrorPage .container .right h1 {
+                text-align: center;
+                color: red;
+            }
+            .ErrorPage .container .right p {
+                text-align: center;
+                color: red;
+            }
         }
     </style>
 </head>
