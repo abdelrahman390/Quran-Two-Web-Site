@@ -1,63 +1,167 @@
 <head>
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500&family=Ubuntu:wght@300;400;500;700&display=swap"
+        rel="stylesheet"
+    />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500&family=Ubuntu:wght@300;400;500;700&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style/main.css" />
     <style>
-        body {
+        .ErrorPage {
             margin: 0;
-            padding: 0;
         }
-        .container {
-            width: 100%;
-            height: 100%;
+        .ErrorPage .max-width {
             display: flex;
-            align-items: center;
             justify-content: center;
-        }
-        .box {
-            width: 90vw;
-            height: 90vh;
-            display: flex;
-            gap: 50px;
-            justify-content: center;
-        }
-        .left,
-        .right {
-            /* width: 45%; */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            align-content: space-around;
             flex-direction: column;
+            align-items: center;
         }
-        .left > h1 {
-            font-size: 150px;
-            font-family: math;
-            margin: 0;
+        .ErrorPage .max-width .title {
+            margin: 30px 0;
+            font-size: 31px;
+            color: var(--title-color) !important;
         }
-        p {
-            font-size: 55px;
+        .ErrorPage .container {
+            margin-bottom: 50px;
+            width: 100%;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
         }
-        a {
-            font-size: 35px;
-            background-color: #07d8a6;
-            color: white;
-            border: none;
-            padding: 20px;
+        .ErrorPage .container .left img {
+            width: 27vw;
+        }
+        .ErrorPage .container .right {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .ErrorPage .container .right > a {
+            padding: 15px;
+            background-color: var(--primary-color);
             border-radius: 10px;
-            text-decoration: none;
+            width: 45%;
+            text-align: center;
+            font-size: 20px;
+            color: white;
+            font-weight: 500;
+            align-self: center;
+            margin-top: 25px;
         }
-        span {
-            color: #07d8a6;
+        .ErrorPage .container .right > h1 {
+            font-size: 35px;
+        }
+        .ErrorPage .container .right > p {
+            font-size: 22px;
+            font-weight: 500;
+            margin: 25px 0;
         }
     </style>
 </head>
-
-<div class="container">
-    <div class="box">
-        <div class="left">
-            <h1>4<span>0</span>4</h1>
-            <p>يتعذر الوصول الي هذه الصفحه</p>
-            <a href="index.html">الرجوع للصفحه الرئيسية</a>
-            <!-- <img src="assets/images/404-error.png" alt="404-error" /> -->
+<header>
+    <div class="max-width">
+        <div class="right">
+            <!-- logo -->
+            <a href="404.html" class="logo">
+                <img src="assets/images/siraj-logo.png" alt="siraj-logo" />
+            </a>
+            <div class="links_container">
+                <ul>
+                    <li Association-statistics-page="mainPage">
+                        <a href="../index.html">الرئيسية</a>
+                    </li>
+                    <li Association-statistics-page="packeges">
+                        <a href="pages/packeges.html">الباقات</a>
+                    </li>
+                    <li Association-statistics-page="systems">
+                        <a href="pages/systems/systems.html">الأنظمة</a>
+                    </li>
+                    <li Association-statistics-page="technical-support">
+                        <a href="pages/technical-support.html">الدعم الفني</a>
+                    </li>
+                    <li
+                        Association-statistics-page="Frequently-Asked-Questions"
+                    >
+                        <a href="pages/Frequently-Asked-Questions.html"
+                            >أسئلة شائعه</a
+                        >
+                    </li>
+                    <li Association-statistics-page="call-us">
+                        <a href="pages/call-us.html">اتصل بنا</a>
+                    </li>
+                </ul>
+                <div class="burgerIcon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
         </div>
-        <!-- <div class="right"></div> -->
+
+        <div class="icons">
+            <div class="account">
+                <li>
+                    <a href="pages/account/loginPage.html"
+                        >تسجيل الدخول
+                        <span class="material-symbols-outlined"> person </span>
+                    </a>
+                </li>
+            </div>
+
+            <div class="cart">
+                <li>
+                    <a href="pages/cart/cart.html">
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+                    </a>
+                </li>
+            </div>
+        </div>
     </div>
-</div>
+</header>
+
+<section class="ErrorPage">
+    <div class="max-width">
+        <h1 class="title">خطأ 404</h1>
+        <div class="container">
+            <div class="left">
+                <img src="assets/images/404-photo.png" alt="404-photo" />
+            </div>
+            <div class="right">
+                <h1>لم نتمكن من العثور على الصفحة التي تبحث عنها</h1>
+                <p>
+                    لا تقلق، إن كنت تعتقد أن هذا خطأنا، فالرجاء إرسال رسالة
+                    إلينا على هذه الصفحة
+                </p>
+                <p>ربما كنت تبحث عن صفحة الدعم الفني؟</p>
+                <a href="pages/technical-support.html">الدعم الفني</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <h2>جميع الحقوق محفوظه 2023 - 1444</h2>
+</footer>
+
+<script>
+    function FixWhiteSpace() {
+        let errorFixFile = document.createElement("script");
+
+        errorFixFile.src = `assets/javascript/whiteSpaceErrorFix.js`;
+        setTimeout(function () {
+            document.head.appendChild(errorFixFile);
+        }, 1000);
+    }
+    FixWhiteSpace();
+</script>
