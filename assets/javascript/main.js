@@ -103,3 +103,36 @@ window.addEventListener('DOMContentLoaded', function() {
     // Show the element immediately after the DOM is loaded
     document.querySelector('.loadingLayout').style.display = 'block';
 });
+
+
+
+
+let allSelect = document.querySelectorAll(" .max-width .cont select")
+
+allSelect.forEach(element => {
+    // console.log(allSelect)
+    // Create a new div element with class 'container'
+    let cont = element.parentElement
+    const containerDiv = document.createElement('div');
+    containerDiv.className = 'container';
+
+    let i = element.parentElement.querySelector("i")
+
+    containerDiv.appendChild(element);
+    containerDiv.appendChild(i);
+    // console.log(containerDiv)
+    // console.log(cont)
+    cont.appendChild(containerDiv)
+});
+
+let navJs = document.createElement("script")
+navJs.src = "../../../../assets/javascript/nav.js"
+
+console.log(navJs)
+
+document.querySelector("body").appendChild(navJs)
+
+    
+let section = document.querySelector("section")
+console.log(section)
+
